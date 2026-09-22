@@ -52,7 +52,7 @@ internal const val EXTENSION_CLASS =
 /**
  * Old vendor id for maximum backwards compatibility.
  */
-internal const val GMS_CORE_VENDOR_GROUP_ID = "app.revanced"
+internal const val GMS_CORE_VENDOR_GROUP_ID = "app.ywmail"
 
 /**
  * A patch that allows patched Google apps to run without root and under a different package name
