@@ -551,7 +551,7 @@ fun gmsCoreSupportResourcePatch(
 
                 // GmsCore presence detection in extension.
                 applicationNode.adoptChild("meta-data") {
-                    setAttribute("android:name", "app.revanced.MICROG_PACKAGE_NAME")
+                    setAttribute("android:name", "app.ywmail.MICROG_PACKAGE_NAME")
                     setAttribute("android:value", "$GMS_CORE_VENDOR_GROUP_ID.android.gms")
                 }
             }

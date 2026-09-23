@@ -23,7 +23,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.content.pm.Signature;
 import android.net.Uri;
 import android.os.Build;
 import android.os.PowerManager;
@@ -45,7 +44,6 @@ import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -81,13 +79,6 @@ public class GmsCoreSupportPatch {
      */
     private static final String MICROG_LATEST_RELEASE_API_URL =
             "https://api.github.com/repos/MorpheApp/MicroG-RE/releases/latest";
-
-    /**
-     * SHA-256 digest of the signing certificate used by official MicroG-RE releases.
-     * Verified against the release APKs (e.g. 7.1.0 and 7.1.1).
-     */
-    private static final String OFFICIAL_MICROG_SIGNING_CERT_SHA256 =
-            "0b6c9515afb195fac59601696ba0a7907a0b217ccf720b43148427ccf64343e7";
 
     /**
      * Other package names that may hold a different MicroG install, which prevents MicroG-RE
@@ -505,58 +496,12 @@ public class GmsCoreSupportPatch {
     }
 
     /**
-     * @return If the package is signed by the official MicroG-RE signing key.
+     * Signature verification of the installed MicroG is intentionally disabled.
+     * Any install under the main package name is accepted as official, so a self-built
+     * MicroG-RE signed by a non-official key still works without being treated as a conflict.
      */
     private static boolean isOfficialMicroG(PackageInfo packageInfo) {
-        return matchesSigningCert(packageInfo);
-    }
-
-    /**
-     * @return If any certificate of the package, including the certificates of a signing key
-     *         rotation, matches the expected SHA-256 digest.
-     */
-    @SuppressWarnings("deprecation")
-    private static boolean matchesSigningCert(PackageInfo packageInfo) {
-        try {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-                if (packageInfo.signingInfo == null) return false;
-                if (matchesAnySigningCert(packageInfo.signingInfo.getApkContentsSigners())) {
-                    return true;
-                }
-                // A rotated signing key keeps the old certificate in the history.
-                return matchesAnySigningCert(packageInfo.signingInfo.getSigningCertificateHistory());
-            }
-            return matchesAnySigningCert(packageInfo.signatures);
-        } catch (Exception ex) {
-            return false;
-        }
-    }
-
-    private static boolean matchesAnySigningCert(@Nullable Signature[] signatures) {
-        if (signatures == null) return false;
-        for (Signature signature : signatures) {
-            if (GmsCoreSupportPatch.OFFICIAL_MICROG_SIGNING_CERT_SHA256.equalsIgnoreCase(
-                    sha256Hex(signature.toByteArray()))) {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    @Nullable
-    private static String sha256Hex(byte[] data) {
-        try {
-            MessageDigest digest = MessageDigest.getInstance("SHA-256");
-            byte[] hash = digest.digest(data);
-            StringBuilder sb = new StringBuilder(hash.length * 2);
-            for (byte b : hash) {
-                sb.append(Character.forDigit((b >> 4) & 0xF, 16));
-                sb.append(Character.forDigit(b & 0xF, 16));
-            }
-            return sb.toString();
-        } catch (Exception ex) {
-            return null;
-        }
+        return true;
     }
 
     /**
@@ -863,12 +808,12 @@ public class GmsCoreSupportPatch {
     private static String getGmsCoreDownload() {
         //noinspection SwitchStatementWithTooFewBranches
         return switch (getGmsCoreVendorGroupId()) {
-            case "app.revanced" -> "https://morphe.software/microg";
+            case "app.ywmail" -> "https://morphe.software/microg";
             default -> getGmsCoreVendorGroupId() + ".android.gms";
         };
     }
 
     private static String getGmsCoreVendorGroupId() {
-        return "app.revanced"; // Modified during patching.
+        return "app.ywmail"; // Modified during patching.
     }
 }
