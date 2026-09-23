@@ -1,0 +1,23 @@
+patches/src/main/kotlin/app/morphe/patches/shared/misc/gms/GmsCoreSupportPatch.kt
+  s_371b8c94ecf03d::t_5b6d45df60b144 554
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/GmsCoreSupportPatch.java
+  s_371b8c94ecf03d::t_50ea8dd12b2139 817
+  s_371b8c94ecf03d::t_e26f07931bbdee 499-501,504
+  s_371b8c94ecf03d::t_9b5cc199e8c34f 811
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4f514de7475d7d58ae389f1da4e33d712be033f4",
+  "prompts": {},
+  "sessions": {
+    "s_371b8c94ecf03d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5e79cfe0-a706-45d5-84e9-630de89f4216",
+        "model": "maas-glm-5.2"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
