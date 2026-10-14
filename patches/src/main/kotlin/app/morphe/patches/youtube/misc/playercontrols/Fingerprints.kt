@@ -120,9 +120,17 @@ internal object RecycleViewScrollingFlagFingerprint : Fingerprint(
 )
 
 internal object NewPlayerOverlaysFeatureFlagFingerprint : Fingerprint(
+    returnType = "Z",
+    parameters = listOf(),
     filters = listOf(
         literal(45752335L)
     )
+)
+
+internal object AutonavEndscreenOverlayFingerprint : Fingerprint(
+    returnType = "Ljava/lang/String;",
+    parameters = listOf(),
+    strings = listOf("player_overlay_player_autonav_endscreen")
 )
 
 internal object PlayerSeekbarFeatureFlagFingerprint : Fingerprint(

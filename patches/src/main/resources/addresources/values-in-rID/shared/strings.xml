@@ -32,11 +32,14 @@ Second \"item\" text"</string>
   <string name="morphe_settings_import_reset">Setelan Morphe diatur ke bawaan</string>
   <string name="morphe_settings_import_success">%d Setelan diimpor</string>
   <string name="morphe_settings_import_failure_parse">Impor gagal: %s</string>
-  <string name="morphe_settings_search_hint">Setelan pencarian</string>
+  <string name="morphe_settings_navigate_up">Navigasi ke atas</string>
+  <string name="morphe_settings_search_hint">Cari setelan</string>
+  <string name="morphe_settings_screen_info_title">Tentang</string>
   <string name="morphe_settings_search_no_results_title">Tidak ada hasil yang ditemukan untuk \'%s\'</string>
   <string name="morphe_settings_search_no_results_summary">Coba kata kunci lain</string>
   <string name="morphe_settings_search_recent_searches">Pencarian terbaru</string>
   <string name="morphe_settings_search_remove_message">Hapus dari riwayat pencarian?</string>
+  <string name="morphe_settings_search_remove">Hapus dari riwayat pencarian</string>
   <string name="morphe_settings_search_clear_history">Hapus riwayat pencarian</string>
   <string name="morphe_settings_search_clear_history_message">Apakah Anda yakin ingin menghapus semua riwayat pencarian?</string>
   <string name="morphe_settings_search_tips_title">Tips Pencarian</string>
@@ -53,7 +56,7 @@ Second \"item\" text"</string>
   <string name="morphe_settings_name_entry_2">Ekstra</string>
   <string name="morphe_settings_name_entry_3">Tweak</string>
   <string name="morphe_settings_name_entry_4">Saatnya berubah</string>
-  <string name="morphe_settings_name_custom_item">Khusus</string>
+  <string name="morphe_settings_name_custom_item">Kustom</string>
   <string name="morphe_settings_name_custom_item_hint">Masukkan nama</string>
   <string name="morphe_settings_name_empty_warning">Nama tidak boleh kosong</string>
   <string name="morphe_show_menu_icons_title">Tampilkan ikon setelan Morphe</string>
@@ -103,7 +106,6 @@ Untuk menerjemahkan bahasa baru atau meningkatkan terjemahan yang sudah ada, kun
 Anda tidak akan diberi tahu tentang kejadian yang tidak terduga."</string>
   <string name="morphe_debug_export_logs_title">Ekspor pencatatan debug</string>
   <string name="morphe_debug_export_logs_summary">Ekspor pencatatan debug Morphe</string>
-  <string name="morphe_debug_export_logs_file">Ekspor ke berkas</string>
   <string name="morphe_debug_export_logs_success">Pencatatan debug berhasil diekspor</string>
   <string name="morphe_debug_export_logs_failed">Gagal mengekspor pencatatan debug</string>
   <string name="morphe_debug_logs_search_hint">Cari pencatatan debug…</string>
@@ -227,4 +229,7 @@ Jika optimasi baterai tidak diubah, Anda mungkin mengalami:
 Jika Anda ingin pengalaman tanpa kendala, silakan &lt;b&gt;copot&lt;/b&gt; ini dan tambal versi aplikasi yang direkomendasikan ✅ &lt;b&gt;%2$s&lt;/b&gt;"</string>
   <string name="morphe_experimental_app_version_dialog_confirm">⚠️ Saya ingin versi eksperimental</string>
   <string name="morphe_experimental_app_version_dialog_open_homepage">✅ Saya ingin versi stabil</string>
+  <!-- misc.crashlog.crashLogPatch -->
+  <string name="morphe_crash_log_saved_documents">Log kerusakan disimpan ke dokumen pengguna: %s</string>
+  <string name="morphe_crash_log_saved">Log kerusakan disimpan: %s</string>
 </resources>
