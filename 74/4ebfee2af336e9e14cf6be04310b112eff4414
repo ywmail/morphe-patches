@@ -1,0 +1,21 @@
+gradle.properties
+  s_bf05026eb3a866::t_0e33decf02efd2 2-5
+patches-list.json
+  s_bf05026eb3a866::t_ec9beffe4ff096 6-7,11-41,44-45,102-103,181-182,260-261,318-319,397-398,476-477,482-483,486,488-489,494,497,501,504,508,511,515,518,522,534-535,613
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "744ebfee2af336e9e14cf6be04310b112eff4414",
+  "prompts": {},
+  "sessions": {
+    "s_bf05026eb3a866": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2abf0491-3393-44df-a5cf-d18091cc31ec",
+        "model": "maas-glm-5-3-260814"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
