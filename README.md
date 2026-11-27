@@ -35,7 +35,7 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.46.0](https://github.com/ywmail/morphe-patches/releases/tag/v1.46.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;190 patches total
+> **[v1.47.0](https://github.com/ywmail/morphe-patches/releases/tag/v1.47.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;159 patches total
 <details>
 <summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;105 patches</summary>
 <br>
@@ -215,51 +215,6 @@ All modifications made by Morphe, along with their dates, can be found in the Gi
 | [Spoof video streams](#spoof-video-streams) | Adds options to spoof the client video streams to fix playback. |  |
 | [Theme](#theme) | Adds options for theming, and settings to change the app foreground and background colors. | • Dark theme color |
 | [Third-party lyrics](#third-party-lyrics) | Adds an option to show synced lyrics with experience enhancement from 18+ providers in the lyrics panel. |  |
-
-</details>
-
-<details>
-<summary>📦 Reddit&nbsp;&nbsp;•&nbsp;&nbsp;31 patches</summary>
-<br>
-
-**🎯 Supported versions:**
-
-| 🧪&nbsp;2026.42.0 | 🧪&nbsp;2026.41.0 | 🧪&nbsp;2026.40.0 | 2026.24.0 | 2026.10.0 |
-| :---: | :---: | :---: | :---: | :---: |
-
-| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
-|----------|----------------|-----------|
-| [App icon](#app-icon) | Adds an option to select from the Reddit app icons available in the manifest. |  |
-| [Copy text](#copy-text) | Adds an option to make post and comment text selectable and copyable. Disables collapsing comments. This patch works with Reddit 2026.24.0 and newer. |  |
-| [Custom branding name for Reddit](#custom-branding-name-for-reddit) | Changes the Reddit app name to the name specified in patch options. | • App name |
-| [Custom font](#custom-font) | Adds an option to replace Reddit Sans / Roboto with a custom TTF or OTF font file at runtime. |  |
-| [Customize post layout](#customize-post-layout) | Adds options to show the view count of posts, to move the vote and comment buttons of posts to the right side, and to swap the vote and comment buttons. Moving and swapping the buttons works with Reddit 2026.39.0 and newer. |  |
-| [Disable modern home](#disable-modern-home) | Adds an option to disable the modern home UI. This patch works with Reddit 2026.24.0 and earlier. |  |
-| [Disable screenshot popup](#disable-screenshot-popup) | Adds an option to disable the popup that appears when taking a screenshot. |  |
-| [Download location](#download-location) | Adds options to choose the folder and file name of downloaded images and videos, which can use the subreddit, author and account, and can be set per account. |  |
-| [Feed media max height](#feed-media-max-height) | Adds an option to change the maximum height of images, videos and galleries in the feed. |  |
-| [Force system font](#force-system-font) | Adds an option that renders Reddit with the device system font instead of Reddit Sans / Roboto. |  |
-| [Full width feed media](#full-width-feed-media) | Adds an option to show images and videos edge to edge in the feed and post details, without side padding and rounded corners. |  |
-| [Hide Ask button](#hide-ask-button) | Adds an option to hide Ask button in the search bar. |  |
-| [Hide Reddit search](#hide-reddit-search) | Permanently hides the Reddit search in the contextual menu. This patch does not work with root mounting |  |
-| [Hide Trending shelves](#hide-trending-shelves) | Adds an option to hide the Trending shelves from feed and search suggestions. |  |
-| [Hide ads](#hide-ads) | Adds options to hide ads. |  |
-| [Hide communities shelf](#hide-communities-shelf) | Adds an option to hide the related or suggested communities shelf in subreddits. |  |
-| [Hide media viewer components](#hide-media-viewer-components) | Adds options to hide the "See the conversation" button and the title, buttons and video controls of the media viewer. Hiding the title, buttons and video controls requires Reddit 2026.38.0 or newer. |  |
-| [Hide navigation buttons](#hide-navigation-buttons) | Adds options to hide buttons in the navigation bar. |  |
-| [Hide sidebar components](#hide-sidebar-components) | Adds options to hide the sidebar components. |  |
-| [Keep feed position](#keep-feed-position) | Adds an option to keep the feed at the same position after closing a post, image or video, instead of moving the opened post to the top of the screen. |  |
-| [Media viewer black background](#media-viewer-black-background) | Adds an option to use a black background behind images and videos in the media viewer, instead of the theme background color. |  |
-| [Media viewer fade](#media-viewer-fade) | Adds an option to lower or remove the dark fade behind the caption when viewing images and videos. |  |
-| [Open links directly](#open-links-directly) | Adds an option to skip over redirection URLs in external links. |  |
-| [Open links externally](#open-links-externally) | Adds an option to always open links in your browser instead of with the in-app-browser. |  |
-| [Redgifs audio](#redgifs-audio) | Adds an option to play the original Redgifs video, which has audio, instead of Reddit's silent copy. |  |
-| [Remember collapsed comments](#remember-collapsed-comments) | Adds an option to keep comments you collapsed collapsed when reopening a post. |  |
-| [Remove subreddit dialog](#remove-subreddit-dialog) | Adds options to remove the NSFW community warning and notifications suggestion dialogs by dismissing them automatically. |  |
-| [Sanitize sharing links](#sanitize-sharing-links) | Adds an option to sanitize sharing links by removing tracking query parameters. |  |
-| [Show flairs in home feed](#show-flairs-in-home-feed) | Adds an option to show post flair badges in the home feed. This patch works with Reddit 2026.24.0 and newer. |  |
-| [Spoof signature](#spoof-signature) | Spoofs the signature of the app to fix notification issues. |  |
-| [Start as guest](#start-as-guest) | Skips the forced startup login screen using Reddit's native guest browsing mode. |  |
 
 </details>
 

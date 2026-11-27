@@ -1,3 +1,9 @@
+## [1.47.0](https://github.com/ywmail/morphe-patches/compare/v1.46.0...v1.47.0) (2026-11-27)
+
+### ✨ New Features
+
+* slim fork to drop Reddit and rename to ywmail-patches ([8f844a0](https://github.com/ywmail/morphe-patches/commit/8f844a04daa3bb48cdefc7b5ea592b715004f44c))
+
 ## [1.46.0](https://github.com/ywmail/morphe-patches/compare/v1.45.0...v1.46.0) (2026-10-27)
 
 ### 🐛 Bug Fixes
