@@ -1,0 +1,21 @@
+delete-list.txt
+  s_bf05026eb3a866::t_0e1941a470e71b 1-429
+keep-list.txt
+  s_bf05026eb3a866::t_adb4820e40f705 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "373ed4357450ab9f3daf1adef6a2bcab81721974",
+  "prompts": {},
+  "sessions": {
+    "s_bf05026eb3a866": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2abf0491-3393-44df-a5cf-d18091cc31ec",
+        "model": "maas-glm-5-2-260617"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
