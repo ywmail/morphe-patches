@@ -8233,7 +8233,19 @@
           ]
         }
       ],
-      "options": []
+      "options": [
+        {
+          "key": "gmsCoreVendorGroupId",
+          "title": "GmsCore vendor group ID",
+          "description": "The vendor group ID of the GmsCore (microG) install to use, such as \"app.ywmail\". The GmsCore package name is the vendor group ID followed by \".android.gms\", and it must match the package name of the GmsCore installed on the device.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "Default",
+          "values": {
+            "Default": "Default"
+          }
+        }
+      ]
     },
     {
       "name": "GmsCore support",
@@ -8312,7 +8324,19 @@
           ]
         }
       ],
-      "options": []
+      "options": [
+        {
+          "key": "gmsCoreVendorGroupId",
+          "title": "GmsCore vendor group ID",
+          "description": "The vendor group ID of the GmsCore (microG) install to use, such as \"app.ywmail\". The GmsCore package name is the vendor group ID followed by \".android.gms\", and it must match the package name of the GmsCore installed on the device.",
+          "required": true,
+          "type": "kotlin.String",
+          "default": "Default",
+          "values": {
+            "Default": "Default"
+          }
+        }
+      ]
     },
     {
       "name": "Hide Answers preview",
