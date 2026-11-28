@@ -4,6 +4,12 @@
 
 * **GmsCore support:** Add GmsCore vendor group ID patch option ([bc5f259](https://github.com/ywmail/morphe-patches/commit/bc5f259af1c7cc54baf14bc2004f1ced615aa83d))
 
+## [2.5.0](https://github.com/ywmail/morphe-patches/compare/v2.4.0...v2.5.0) (2026-11-28)
+
+### ✨ New Features
+
+* **GmsCore support:** Add GmsCore vendor group ID patch option ([bc5f259](https://github.com/ywmail/morphe-patches/commit/bc5f259af1c7cc54baf14bc2004f1ced615aa83d))
+
 ## [2.4.0](https://github.com/MorpheApp/morphe-patches/compare/v2.3.0...v2.4.0) (2026-11-26)
 
 ### ✨ New Features
