@@ -1,3 +1,14 @@
+## [1.49.0](https://github.com/ywmail/morphe-patches/compare/v1.48.0...v1.49.0) (2026-11-28)
+
+### 🐛 Bug Fixes
+
+* complete upstream v2.4.0 sync (build files, stubs, extensions) ([0839ac3](https://github.com/ywmail/morphe-patches/commit/0839ac3515c87b595b14d9a193ffe32e76b5214c))
+
+### ✨ New Features
+
+* sync upstream v2.4.0 GmsCore closure (extensions + build files) ([5772a2d](https://github.com/ywmail/morphe-patches/commit/5772a2dd709251554888f4261f57fa2a8381ba80))
+* sync upstream v2.4.0 GmsCore closure (patches) ([3ded939](https://github.com/ywmail/morphe-patches/commit/3ded9390722c01f44712ac584e92331f333a4f23))
+
 ## [1.48.0](https://github.com/ywmail/morphe-patches/compare/v1.47.0...v1.48.0) (2026-11-28)
 
 ### 🐛 Bug Fixes

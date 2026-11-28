@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-28T00:46:05",
-  "description": "## [1.48.0](https://github.com/ywmail/morphe-patches/compare/v1.47.0...v1.48.0) (2026-11-28)\n\n### 🐛 Bug Fixes\n\n* restore overlay patch lost in rebase ([d476ac6](https://github.com/ywmail/morphe-patches/commit/d476ac6dfb58488a35ef6363a2ec46c83729d783))\n\n### ✨ New Features\n\n* drop YouTube/Music non-misc patches ([1e4db9b](https://github.com/ywmail/morphe-patches/commit/1e4db9b1aae996817172a8edd6943f8192daba42))\n* slim to GmsCore-only patch set ([744ebfe](https://github.com/ywmail/morphe-patches/commit/744ebfee2af336e9e14cf6be04310b112eff4414))",
-  "download_url": "https://github.com/ywmail/morphe-patches/releases/download/v1.48.0/patches-1.48.0.mpp",
+  "created_at": "2026-11-28T02:08:05",
+  "description": "## [1.49.0](https://github.com/ywmail/morphe-patches/compare/v1.48.0...v1.49.0) (2026-11-28)\n\n### 🐛 Bug Fixes\n\n* complete upstream v2.4.0 sync (build files, stubs, extensions) ([0839ac3](https://github.com/ywmail/morphe-patches/commit/0839ac3515c87b595b14d9a193ffe32e76b5214c))\n\n### ✨ New Features\n\n* sync upstream v2.4.0 GmsCore closure (extensions + build files) ([5772a2d](https://github.com/ywmail/morphe-patches/commit/5772a2dd709251554888f4261f57fa2a8381ba80))\n* sync upstream v2.4.0 GmsCore closure (patches) ([3ded939](https://github.com/ywmail/morphe-patches/commit/3ded9390722c01f44712ac584e92331f333a4f23))",
+  "download_url": "https://github.com/ywmail/morphe-patches/releases/download/v1.49.0/patches-1.49.0.mpp",
   "signature_download_url": "",
-  "version": "1.48.0"
+  "version": "1.49.0"
 }
