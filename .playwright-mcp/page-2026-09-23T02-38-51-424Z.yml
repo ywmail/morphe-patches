@@ -1,0 +1,152 @@
+- generic [ref=f9e2]:
+  - generic [ref=f9e3]:
+    - link "Skip to content" [ref=f9e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - generic [ref=f9e10]:
+          - button "Open menu" [ref=f9e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f9e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f9e18]:
+          - navigation "Breadcrumbs" [ref=f9e19]:
+            - list [ref=f9e20]:
+              - listitem [ref=f9e21]:
+                - link "ywmail" [ref=f9e22] [cursor=pointer]:
+                  - /url: /ywmail
+              - listitem [ref=f9e24]:
+                - link "morphe-patches" [ref=f9e25] [cursor=pointer]:
+                  - /url: /ywmail/morphe-patches
+                - button "Switch repository (alt shift r)" [ref=f9e28] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f9e33] [cursor=pointer]:
+            - generic [ref=f9e35]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f9e36]:
+          - generic [ref=f9e37]:
+            - generic [ref=f9e40]:
+              - link "Chat with Copilot" [ref=f9e42] [cursor=pointer]:
+                - /url: /copilot
+              - button "Open Copilot…" [ref=f9e47] [cursor=pointer]
+            - button "Create new..." [ref=f9e49] [cursor=pointer]
+            - generic [ref=f9e51]:
+              - link "All issues (g then i)" [ref=f9e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f9e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f9e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f9e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f9e66] [cursor=pointer]:
+            - img "Wayne Yang" [ref=f9e67]
+      - heading "Repository navigation" [level=2] [ref=f9e68]
+      - navigation "Repository" [ref=f9e69]:
+        - list [ref=f9e70]:
+          - listitem [ref=f9e71]:
+            - link "Code" [ref=f9e72] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches
+          - listitem [ref=f9e77]:
+            - link "Pull requests" [ref=f9e78] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/pulls
+          - listitem [ref=f9e83]:
+            - link "Agents" [ref=f9e84] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/agents?author=ywmail
+          - listitem [ref=f9e90]:
+            - link "Actions" [ref=f9e91] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/actions
+          - listitem [ref=f9e96]:
+            - link "Projects" [ref=f9e97] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/projects
+          - listitem [ref=f9e102]:
+            - link "Security and quality" [ref=f9e103] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/security
+          - listitem [ref=f9e108]:
+            - link "Insights" [ref=f9e109] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/pulse
+          - listitem [ref=f9e114]:
+            - link "Settings" [ref=f9e115] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/settings
+  - main [ref=f9e123]:
+    - generic [ref=f9e129]:
+      - generic [ref=f9e132]:
+        - link "Release" [ref=f9e135] [cursor=pointer]:
+          - /url: /ywmail/morphe-patches/actions/workflows/release.yml
+        - generic [ref=f9e139]:
+          - generic [ref=f9e140]:
+            - img "failed:" [ref=f9e144]
+            - 'heading "bump: Rebrand GmsCore vendor group to app.ywmail #1" [level=1] [ref=f9e146]'
+          - generic [ref=f9e149]:
+            - 'button "Attempt #1" [ref=f9e152] [cursor=pointer]'
+            - button "Workflow run options" [ref=f9e158] [cursor=pointer]
+      - region "Check run summary" [ref=f9e162]:
+        - generic [ref=f9e163]:
+          - region "Annotations" [ref=f9e165]:
+            - generic [ref=f9e169]:
+              - button "Open job annotations" [ref=f9e171] [cursor=pointer]
+              - generic [ref=f9e176]:
+                - heading "Annotations" [level=2] [ref=f9e177]
+                - generic [ref=f9e178]: 1 error and 1 notice
+          - generic [ref=f9e180]:
+            - generic [ref=f9e181]:
+              - generic [ref=f9e182]:
+                - link "Release" [ref=f9e185] [cursor=pointer]:
+                  - /url: "#logs"
+                - generic [ref=f9e187]:
+                  - text: failed Sep 23, 202616 minutes ago in 3m 55s.
+                  - link "View latest attempt" [ref=f9e188] [cursor=pointer]:
+                    - /url: /ywmail/morphe-patches/actions/runs/35809827464
+                  - text: .
+              - generic [ref=f9e189]:
+                - textbox "Search" [ref=f9e193]:
+                  - /placeholder: Search logs
+                - button "Explain error" [ref=f9e198] [cursor=pointer]
+                - group [ref=f9e201]:
+                  - button [ref=f9e202] [cursor=pointer]:
+                    - img "Show options" [ref=f9e203]
+            - generic [ref=f9e206]:
+              - group [ref=f9e208]:
+                - generic "Set up job" [ref=f9e209] [cursor=pointer]
+              - group [ref=f9e218]:
+                - generic "Checkout" [ref=f9e219] [cursor=pointer]
+              - group [ref=f9e228]:
+                - generic "Setup Java" [ref=f9e229] [cursor=pointer]
+              - group [ref=f9e238]:
+                - generic "Cache Gradle" [ref=f9e239] [cursor=pointer]
+              - group [ref=f9e248]:
+                - generic "Setup Node.js" [ref=f9e249] [cursor=pointer]
+              - group [ref=f9e258]:
+                - generic "Install dependencies" [ref=f9e259] [cursor=pointer]
+              - group [ref=f9e268]:
+                - generic "Release" [ref=f9e269] [cursor=pointer]
+              - generic [ref=f9e281]:
+                - group:
+                  - generic "Attest"
+              - generic [ref=f9e282]:
+                - group:
+                  - generic "Generate website deploy token"
+              - generic [ref=f9e283]:
+                - group:
+                  - generic "Trigger website deploy"
+              - generic [ref=f9e284]:
+                - group:
+                  - generic "Wait before sending FCM"
+              - generic [ref=f9e285]:
+                - group:
+                  - generic "Setup Python for FCM"
+              - generic [ref=f9e286]:
+                - group:
+                  - generic "Send FCM push notification"
+              - generic [ref=f9e287]:
+                - group:
+                  - generic "Post Setup Node.js"
+              - group [ref=f9e289]:
+                - generic "Post Cache Gradle" [ref=f9e290] [cursor=pointer]
+              - group [ref=f9e299]:
+                - generic "Post Setup Java" [ref=f9e300] [cursor=pointer]
+              - group [ref=f9e309]:
+                - generic "Post Checkout" [ref=f9e310] [cursor=pointer]
+              - group [ref=f9e319]:
+                - generic "Complete job" [ref=f9e320] [cursor=pointer]

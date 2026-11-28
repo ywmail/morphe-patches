@@ -1,0 +1,154 @@
+- generic [ref=f7e2]:
+  - generic [ref=f7e3]:
+    - link "Skip to content" [ref=f7e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f7e8]:
+      - generic [ref=f7e9]:
+        - generic [ref=f7e10]:
+          - button "Open menu" [ref=f7e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f7e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f7e18]:
+          - navigation "Breadcrumbs" [ref=f7e19]:
+            - list [ref=f7e20]:
+              - listitem [ref=f7e21]:
+                - link "ywmail" [ref=f7e22] [cursor=pointer]:
+                  - /url: /ywmail
+              - listitem [ref=f7e24]:
+                - link "morphe-patches" [ref=f7e25] [cursor=pointer]:
+                  - /url: /ywmail/morphe-patches
+                - button "Switch repository (alt shift r)" [ref=f7e28] [cursor=pointer]
+          - button "Open quick search dialog, type / to search" [ref=f7e33] [cursor=pointer]:
+            - generic [ref=f7e35]:
+              - generic:
+                - text: Type
+                - generic: /
+                - text: to search
+        - generic [ref=f7e36]:
+          - generic [ref=f7e37]:
+            - generic [ref=f7e40]:
+              - link "Chat with Copilot" [ref=f7e42] [cursor=pointer]:
+                - /url: /copilot
+              - button "Open Copilot…" [ref=f7e47] [cursor=pointer]
+            - button "Create new..." [ref=f7e49] [cursor=pointer]
+            - generic [ref=f7e51]:
+              - link "All issues (g then i)" [ref=f7e52] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f7e56] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f7e59] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f7e62] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f7e66] [cursor=pointer]:
+            - img "Wayne Yang" [ref=f7e67]
+      - heading "Repository navigation" [level=2] [ref=f7e68]
+      - navigation "Repository" [ref=f7e69]:
+        - list [ref=f7e70]:
+          - listitem [ref=f7e71]:
+            - link "Code" [ref=f7e72] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches
+          - listitem [ref=f7e77]:
+            - link "Pull requests" [ref=f7e78] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/pulls
+          - listitem [ref=f7e83]:
+            - link "Agents" [ref=f7e84] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/agents?author=ywmail
+          - listitem [ref=f7e90]:
+            - link "Actions" [ref=f7e91] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/actions
+          - listitem [ref=f7e96]:
+            - link "Projects" [ref=f7e97] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/projects
+          - listitem [ref=f7e102]:
+            - link "Security and quality" [ref=f7e103] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/security
+          - listitem [ref=f7e108]:
+            - link "Insights" [ref=f7e109] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/pulse
+          - listitem [ref=f7e114]:
+            - link "Settings" [ref=f7e115] [cursor=pointer]:
+              - /url: /ywmail/morphe-patches/settings
+  - main [ref=f7e123]:
+    - generic [ref=f7e129]:
+      - generic [ref=f7e132]:
+        - link "Release" [ref=f7e135] [cursor=pointer]:
+          - /url: /ywmail/morphe-patches/actions/workflows/release.yml
+        - generic [ref=f7e139]:
+          - generic [ref=f7e140]:
+            - img "failed:" [ref=f7e144]
+            - 'heading "bump: Rebrand GmsCore vendor group to app.ywmail #1" [level=1] [ref=f7e146]'
+          - generic [ref=f7e149]:
+            - button "Re-run jobs" [ref=f7e153] [cursor=pointer]
+            - 'button "Latest #2" [ref=f7e158] [cursor=pointer]'
+            - button "Workflow run options" [ref=f7e164] [cursor=pointer]
+      - generic [ref=f7e168]:
+        - region "Workflow run summary" [ref=f7e169]:
+          - generic [ref=f7e170]:
+            - generic [ref=f7e171]:
+              - generic [ref=f7e172]: Re-run triggered September 23, 2026 10:362 minutes ago
+              - generic [ref=f7e173]:
+                - link [ref=f7e174] [cursor=pointer]:
+                  - /url: /ywmail
+                  - img "@ywmail" [ref=f7e175]
+                  - text: ywmail
+                - link "25704d5" [ref=f7e177] [cursor=pointer]:
+                  - /url: /ywmail/morphe-patches/commit/25704d5d9442fb3a490ea24283a8f852e2a328f7
+                - link "main" [ref=f7e180] [cursor=pointer]:
+                  - /url: /ywmail/morphe-patches/tree/refs/heads/main
+            - generic [ref=f7e181]:
+              - generic [ref=f7e182]: Status
+              - text: Failure
+            - generic [ref=f7e183]:
+              - generic [ref=f7e184]: Total duration
+              - link "1m 42s" [ref=f7e185] [cursor=pointer]:
+                - /url: /ywmail/morphe-patches/actions/runs/35809827464/usage
+            - generic [ref=f7e186]:
+              - generic [ref=f7e187]: Artifacts
+              - text: –
+        - region "Workflow run graph" [ref=f7e188]:
+          - generic [ref=f7e190]:
+            - generic [ref=f7e192]:
+              - heading [level=2] [ref=f7e193]:
+                - link "release.yml" [ref=f7e194] [cursor=pointer]:
+                  - /url: /ywmail/morphe-patches/actions/runs/35809827464/workflow
+              - generic [ref=f7e195]: "on: push"
+            - generic [ref=f7e197]:
+              - 'link "failed: Release 1m 37s" [ref=f7e202] [cursor=pointer]':
+                - /url: /ywmail/morphe-patches/actions/runs/35809827464/job/107022357406
+                - generic [ref=f7e204]:
+                  - img "failed:" [ref=f7e206]
+                  - generic [ref=f7e208]: Release
+                  - generic [ref=f7e210]: 1m 37s
+              - generic [aria-hidden] [ref=f7e211]:
+                - paragraph [ref=f7e212]: Oh hello! Nice to see you.
+                - paragraph [ref=f7e213]:
+                  - text: Made with ❤️ by
+                  - link [ref=f7e214] [cursor=pointer]:
+                    - /url: https://actions.github.io/humans.txt
+                    - text: humans.txt
+            - generic [ref=f7e215]:
+              - button "Fit to window" [disabled] [ref=f7e216]
+              - generic [ref=f7e217]:
+                - button "Zoom out" [disabled] [ref=f7e219]
+                - button "Zoom in" [disabled] [ref=f7e221]
+        - region "Annotations" [ref=f7e223]:
+          - generic [ref=f7e224]:
+            - generic [ref=f7e226]:
+              - heading "Annotations" [level=2] [ref=f7e227]
+              - generic [ref=f7e228]: 1 notice
+            - table [ref=f7e229]:
+              - rowgroup [ref=f7e230]:
+                - row [ref=f7e231]:
+                  - cell [ref=f7e232]:
+                    - generic [ref=f7e237]:
+                      - link [ref=f7e238] [cursor=pointer]:
+                        - /url: /ywmail/morphe-patches/actions/runs/35809827464/job/107022357406
+                        - strong [ref=f7e239]: Release
+                      - generic [ref=f7e240]:
+                        - generic [ref=f7e242]:
+                          - text: "\"The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see"
+                          - link "https://github.com/actions/runner-images/issues/14748" [ref=f7e243] [cursor=pointer]:
+                            - /url: https://github.com/actions/runner-images/issues/14748
+                          - text: "\""
+                        - button "Show more" [ref=f7e244] [cursor=pointer]

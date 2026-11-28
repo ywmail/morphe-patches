@@ -23,6 +23,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.net.Uri;
 import android.os.Build;
 import android.os.PowerManager;
@@ -44,6 +45,7 @@ import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -81,6 +83,13 @@ public class GmsCoreSupportPatch {
             "https://api.github.com/repos/MorpheApp/MicroG-RE/releases/latest";
 
     /**
+     * SHA-256 digest of the signing certificate used by official MicroG-RE releases.
+     * Verified against the release APKs (e.g. 7.1.0 and 7.1.1).
+     */
+    private static final String OFFICIAL_MICROG_SIGNING_CERT_SHA256 =
+            "0b6c9515afb195fac59601696ba0a7907a0b217ccf720b43148427ccf64343e7";
+
+    /**
      * Other package names that may hold a different MicroG install, which prevents MicroG-RE
      * from being installed or working correctly.
      * <p>
@@ -101,7 +110,7 @@ public class GmsCoreSupportPatch {
             "android.intent.extra.UNINSTALL_ALL_USERS";
 
     /**
-     * Delay between two uninstall requests, so the system can show each of them.
+     * Delay between two uninstallation requests, so the system can show each of them.
      */
     private static final long UNINSTALL_PROMPT_DELAY_MILLIS = 1500;
 
@@ -111,8 +120,40 @@ public class GmsCoreSupportPatch {
     @Nullable
     private static volatile Boolean DONT_KILL_MY_APP_MANUFACTURER_SUPPORTED;
 
+    @SuppressWarnings("SameReturnValue")
     private static String getOriginalPackageName() {
         return null; // Modified during patching.
+    }
+
+    /**
+     * Account capabilities of child, supervised and teen accounts, as Base32 of "303-cap", "1242-cap",
+     * "1786-cap" and "322-cap". GmsCore allows the capabilities it can not look up, so every account got
+     * the defaults of a supervised or teen account, such as the bedtime, break and Shorts feed limit
+     * reminders turned on, which are set again for each account that is used for the first time,
+     * such as after switching account or clearing the app data.
+     * Google Play services denies them for other accounts.
+     */
+    private static final List<String> SUPERVISED_ACCOUNT_CAPABILITIES = List.of(
+            "gmydglldmfya",
+            "gezdimrnmnqxa",
+            "ge3tqnrnmnqxa",
+            "gmzdelldmfya"
+    );
+
+    /**
+     * Injection point.
+     *
+     * @return If the account capability check is denied without asking GmsCore.
+     */
+    public static boolean denySupervisedAccountCapability(@Nullable String[] capabilities) {
+        if (capabilities != null) {
+            for (String capability : capabilities) {
+                if (SUPERVISED_ACCOUNT_CAPABILITIES.contains(capability)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     /**
@@ -203,7 +244,7 @@ public class GmsCoreSupportPatch {
             }
 
             // Find every MicroG install and verify the installed MicroG-RE is signed by the
-            // official key, since an install signed by another key cannot be updated.
+            // official key, since an installation signed by another key cannot be updated.
             List<VariantPackage> variants = findMicroGVariants(context);
             List<VariantPackage> conflicts = new ArrayList<>();
             boolean officialGmsCoreInstalled = false;
@@ -256,20 +297,20 @@ public class GmsCoreSupportPatch {
 
                 // The download page is opened only after every confirmation dialog was sent to the
                 // user. Opening it earlier would put the page in front of the dialogs and leave the
-                // uninstall requests unconfirmed.
+                // uninstallation requests unconfirmed.
                 Utils.runOnMainThreadDelayed(() -> open(context, getGmsCoreDownload()),
                         UNINSTALL_PROMPT_DELAY_MILLIS * (installedPackageNames.size() + 1));
                 return;
             }
 
-            // Check if GmsCore is outdated. An install signed by a different key cannot be
+            // Check if GmsCore is outdated. An installation signed by a different key cannot be
             // updated by installing a MicroG-RE release, so it is not asked to update.
             if (officialGmsCoreInstalled) {
                 checkForMicroGUpdate(context);
             }
 
             // Check if GmsCore is whitelisted from battery optimizations.
-            if (isAndroidAutomotive(context)) {
+            if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_AUTOMOTIVE)) {
                 // Ignore Android Automotive devices (Google built-in),
                 // as there is no way to disable battery optimizations.
                 Logger.printDebug(() -> "Device is Android Automotive");
@@ -365,7 +406,8 @@ public class GmsCoreSupportPatch {
             if (info == null) continue;
 
             final boolean officialMicroG = packageName.equals(GMS_CORE_PACKAGE_NAME)
-                    && isOfficialMicroG(info);
+                    // Signed by the official MicroG-RE signing key.
+                    && matchesSigningCert(info);
 
             variants.add(new VariantPackage(packageName, userId, info.versionName, officialMicroG));
         }
@@ -496,12 +538,41 @@ public class GmsCoreSupportPatch {
     }
 
     /**
-     * Signature verification of the installed MicroG is intentionally disabled.
-     * Any install under the main package name is accepted as official, so a self-built
-     * MicroG-RE signed by a non-official key still works without being treated as a conflict.
+     * Signature verification of the installed MicroG is intentionally disabled in this fork.
+     *
+     * @return If any certificate of the package, including the certificates of a signing key
+     *         rotation, matches the expected SHA-256 digest.
      */
-    private static boolean isOfficialMicroG(PackageInfo packageInfo) {
+    @SuppressWarnings("deprecation")
+    private static boolean matchesSigningCert(PackageInfo packageInfo) {
         return true;
+    }
+
+    private static boolean matchesAnySigningCert(@Nullable Signature[] signatures) {
+        if (signatures == null) return false;
+        for (Signature signature : signatures) {
+            if (GmsCoreSupportPatch.OFFICIAL_MICROG_SIGNING_CERT_SHA256.equalsIgnoreCase(
+                    sha256Hex(signature.toByteArray()))) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Nullable
+    private static String sha256Hex(byte[] data) {
+        try {
+            MessageDigest digest = MessageDigest.getInstance("SHA-256");
+            byte[] hash = digest.digest(data);
+            StringBuilder sb = new StringBuilder(hash.length * 2);
+            for (byte b : hash) {
+                sb.append(Character.forDigit((b >> 4) & 0xF, 16));
+                sb.append(Character.forDigit(b & 0xF, 16));
+            }
+            return sb.toString();
+        } catch (Exception ex) {
+            return null;
+        }
     }
 
     /**
@@ -518,8 +589,7 @@ public class GmsCoreSupportPatch {
 
         StringBuilder signature = new StringBuilder();
         for (String entry : entries) {
-            //noinspection SizeReplaceableByIsEmpty
-            if (signature.length() > 0) signature.append(';');
+            if (Utils.isNotEmpty(signature)) signature.append(';');
             signature.append(entry);
         }
         return signature.toString();
@@ -536,8 +606,7 @@ public class GmsCoreSupportPatch {
         Utils.runOnMainThreadDelayed(() -> {
             StringBuilder list = new StringBuilder();
             for (VariantPackage variant : conflicts) {
-                //noinspection SizeReplaceableByIsEmpty
-                if (list.length() > 0) list.append('\n');
+                if (Utils.isNotEmpty(list)) list.append('\n');
                 list.append(variant);
             }
 
@@ -704,7 +773,7 @@ public class GmsCoreSupportPatch {
 
     /**
      * Compares two MicroG version names such as "7.1.0-dev.2".
-     * @return A negative value if a is older than b, zero if equal, a positive value if newer.
+     * @return A negative value if {@code a} is older than {@code b}, zero if equal, a positive value if newer.
      */
     private static int compareVersions(String a, String b) {
         int[] av = parseVersion(a);
@@ -792,17 +861,8 @@ public class GmsCoreSupportPatch {
      * @return If GmsCore is not whitelisted from battery optimizations.
      */
     private static boolean batteryOptimizationsEnabled(Context context) {
-        //noinspection ObsoleteSdkInt
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            // Android 5.0 does not have battery optimization settings.
-            return false;
-        }
         var powerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         return !powerManager.isIgnoringBatteryOptimizations(GMS_CORE_PACKAGE_NAME);
-    }
-
-    private static boolean isAndroidAutomotive(Context context) {
-        return context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_AUTOMOTIVE);
     }
 
     private static String getGmsCoreDownload() {
@@ -813,6 +873,7 @@ public class GmsCoreSupportPatch {
         };
     }
 
+    @SuppressWarnings("SameReturnValue")
     private static String getGmsCoreVendorGroupId() {
         return "app.ywmail"; // Modified during patching.
     }
