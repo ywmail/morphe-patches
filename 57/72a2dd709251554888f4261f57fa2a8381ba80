@@ -1,0 +1,1213 @@
+extensions/music/src/main/java/app/morphe/extension/music/patches/AndroidAutoSettingsTab.java
+  s_bf05026eb3a866::t_c762d1be0637aa 1-220
+extensions/music/src/main/java/app/morphe/extension/music/patches/AndroidAutoThirdPartyAppsPatch.java
+  s_bf05026eb3a866::t_e082f3939f4ee7 1-51
+extensions/music/src/main/java/app/morphe/extension/music/patches/AutoSongVersionPatch.java
+  s_bf05026eb3a866::t_54638eb5e989e0 1-888
+extensions/music/src/main/java/app/morphe/extension/music/patches/CastFixesPatch.java
+  s_bf05026eb3a866::t_d739ac1924d313 1-111
+extensions/music/src/main/java/app/morphe/extension/music/patches/DeviceFilesSearchPatch.java
+  s_bf05026eb3a866::t_779887ef3aea94 1-91
+extensions/music/src/main/java/app/morphe/extension/music/patches/DisableAudioDuckingPatch.java
+  s_bf05026eb3a866::t_b9b68b042b4fd6 1-36
+extensions/music/src/main/java/app/morphe/extension/music/patches/DisableAutoCaptionsPatch.java
+  s_bf05026eb3a866::t_bf3d93b85ddd59 1-54
+extensions/music/src/main/java/app/morphe/extension/music/patches/DisableSwipeToChangeTrackPatch.java
+  s_bf05026eb3a866::t_85b6daf1fae538 1-49
+extensions/music/src/main/java/app/morphe/extension/music/patches/LoopVideoPatch.java
+  s_bf05026eb3a866::t_c8c8cb140e1ed8 1-313
+extensions/music/src/main/java/app/morphe/extension/music/patches/MusicGlassMiniplayer.java
+  s_bf05026eb3a866::t_90f075cffd3403 1-657
+extensions/music/src/main/java/app/morphe/extension/music/patches/MusicGlassNavigationBar.java
+  s_bf05026eb3a866::t_12217c37daa2bd 1-961
+extensions/music/src/main/java/app/morphe/extension/music/patches/MusicMediaNotificationControlsPatch.java
+  s_bf05026eb3a866::t_4fd6bb1782ebf4 1-33
+extensions/music/src/main/java/app/morphe/extension/music/patches/OpenSystemShareSheetPatch.java
+  s_bf05026eb3a866::t_6f09adeb0ef1a7 1-182
+extensions/music/src/main/java/app/morphe/extension/music/patches/PauseWhenMutedPatch.java
+  s_bf05026eb3a866::t_3b2cbe8049df8a 1-182
+extensions/music/src/main/java/app/morphe/extension/music/patches/PlaylistTagsDialogs.java
+  s_bf05026eb3a866::t_abadc31d870fee 1-512
+extensions/music/src/main/java/app/morphe/extension/music/patches/PlaylistTagsPatch.java
+  s_bf05026eb3a866::t_a68bcfabba76a4 1-492
+extensions/music/src/main/java/app/morphe/extension/music/patches/PlaylistTagsProto.java
+  s_bf05026eb3a866::t_f2d42ba2e224eb 1-312
+extensions/music/src/main/java/app/morphe/extension/music/patches/PlaylistTagsStore.java
+  s_bf05026eb3a866::t_7e7769e5fe6a36 1-372
+extensions/music/src/main/java/app/morphe/extension/music/patches/QueueLikeFilterPatch.java
+  s_bf05026eb3a866::t_527423ec98e74d 1-365
+extensions/music/src/main/java/app/morphe/extension/music/patches/RememberVideoQualityPatch.java
+  s_bf05026eb3a866::t_07e3a9ef5615ab 1-214
+extensions/music/src/main/java/app/morphe/extension/music/patches/VideoEffectMenuPatch.java
+  s_bf05026eb3a866::t_a57ba6f66e3c81 1-156
+extensions/music/src/main/java/app/morphe/extension/music/patches/album/AlbumProto.java
+  s_bf05026eb3a866::t_35b7acb32fc987 1-233
+extensions/music/src/main/java/app/morphe/extension/music/patches/album/AlbumRequests.java
+  s_bf05026eb3a866::t_97acaf86035d4d 1-398
+extensions/music/src/main/java/app/morphe/extension/music/patches/applemusicartwork/AnimatedArtworkView.java
+  s_bf05026eb3a866::t_b2e5756761d4e9 1-226
+extensions/music/src/main/java/app/morphe/extension/music/patches/applemusicartwork/AppleMusicArtworkPatch.java
+  s_bf05026eb3a866::t_4c402d50b75e27 1-375
+extensions/music/src/main/java/app/morphe/extension/music/patches/applemusicartwork/AppleMusicCatalog.java
+  s_bf05026eb3a866::t_a5082ac08a8df7 1-437
+extensions/music/src/main/java/app/morphe/extension/music/patches/applemusicartwork/HlsDownloader.java
+  s_bf05026eb3a866::t_f9dd0a2e62fc11 1-239
+extensions/music/src/main/java/app/morphe/extension/music/patches/components/PlaylistPageFilter.java
+  s_bf05026eb3a866::t_d519a6dba3497f 1-141
+extensions/music/src/main/java/app/morphe/extension/music/patches/components/SongMenuFilter.java
+  s_bf05026eb3a866::t_f5fe4d230f8139 1-111
+extensions/music/src/main/java/app/morphe/extension/music/patches/downloads/ExportMenuItem.java
+  s_bf05026eb3a866::t_280cb904fc8240 1-176
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/LyricsButtonPatch.java
+  s_bf05026eb3a866::t_ebb5a19ecb0f58 1-149
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/LyricsPresentation.java
+  s_bf05026eb3a866::t_0ac7556d54c033 1-238
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/PlaybackClock.java
+  s_bf05026eb3a866::t_c7aaa58e44df46 1-241
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/derive/LyricsLanguageDetector.java
+  s_bf05026eb3a866::t_91228c8b9d9af5 1-139
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/derive/ProcessingProviders.java
+  s_bf05026eb3a866::t_a1766a08691241 1-198
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/ArtistLineCycle.java
+  s_bf05026eb3a866::t_2b74921d5ee481 1-60
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/CreditInfo.java
+  s_bf05026eb3a866::t_67d2c7c8dbc02b 1-23
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/LyricsRetiming.java
+  s_bf05026eb3a866::t_f4e2ad1133922a 1-373
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/LyricsTextFormatter.java
+  s_bf05026eb3a866::t_399ef2970d072a 1-127
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/MiniLyricsFormatter.java
+  s_bf05026eb3a866::t_0984ea6a074505 1-582
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/MiniLyricsTimeline.java
+  s_bf05026eb3a866::t_ff3ed97e55c127 1-196
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/PairedPunctuation.java
+  s_bf05026eb3a866::t_ea8a4ace78777b 1-272
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/model/TrackVersion.java
+  s_bf05026eb3a866::t_dfc556c75e48fe 1-100
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/parsers/TTMLGenerator.java
+  s_bf05026eb3a866::t_0f39b3a1c04edd 1-631
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/requests/KuwoProvider.java
+  s_bf05026eb3a866::t_0c690e98dca6d8 1-523
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/requests/LRCRedProvider.java
+  s_bf05026eb3a866::t_7aa6be60c47292 1-697
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/requests/LyricsEndpoints.java
+  s_bf05026eb3a866::t_29e44eb68cfc0d 1-64
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/requests/LyricsPlusProvider.java
+  s_bf05026eb3a866::t_b890442e00c656 1-527
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/CjkWordGroups.java
+  s_bf05026eb3a866::t_0165824789efe5 1-37
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/CldrTransforms.java
+  s_bf05026eb3a866::t_4952c1b8194793 1-129
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/CldrTransformsStore.java
+  s_bf05026eb3a866::t_10ed058b8be552 1-496
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/IcuRomanizer.java
+  s_bf05026eb3a866::t_09bbaf18ab070d 1-70
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/JapaneseDictionaryStore.java
+  s_bf05026eb3a866::t_9b36ec980338f3 1-246
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/JapaneseMoraSplitter.java
+  s_bf05026eb3a866::t_8543a99b045b3a 1-983
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/JiebaSegmentStore.java
+  s_bf05026eb3a866::t_456ccf4fefbba2 1-117
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/JiebaSegmenter.java
+  s_bf05026eb3a866::t_11f936e58144ea 1-89
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/KoreanReadingAligner.java
+  s_bf05026eb3a866::t_d54d19a8ada583 1-613
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/KuromojiDictStore.java
+  s_bf05026eb3a866::t_6aaa156aacc2bc 1-309
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/KuromojiDictionary.java
+  s_bf05026eb3a866::t_d744fb37037249 1-930
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/KuromojiRomanizer.java
+  s_bf05026eb3a866::t_51bc21fd2e8ea4 1-1382
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/KuromojiTokenizer.java
+  s_bf05026eb3a866::t_06cbeb8e2505be 1-330
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/PinyinDictionaryStore.java
+  s_bf05026eb3a866::t_89b8f42ece1679 1-197
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/RimeDictionaryStore.java
+  s_bf05026eb3a866::t_7ac20498de12c4 1-985
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/RimeRomanizer.java
+  s_bf05026eb3a866::t_182a134021dfac 1-40
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/RomanizationDictionary.java
+  s_bf05026eb3a866::t_3accfcf9c2b0e6 1-201
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/Romanizations.java
+  s_bf05026eb3a866::t_37ad38ef09d98e 1-30
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/RubyGenerator.java
+  s_bf05026eb3a866::t_aa28776396758c 1-865
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/romanizers/UniDictionaryStore.java
+  s_bf05026eb3a866::t_cb8520180332a6 1-379
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/session/LyricsNotificationRefresh.java
+  s_bf05026eb3a866::t_5975f3e364398e 1-69
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/BoxBlur.java
+  s_bf05026eb3a866::t_4d8da6ab9128eb 1-89
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/DeviceLyricsTab.java
+  s_bf05026eb3a866::t_d5523050d6e63d 1-189
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/DynamicBackgroundView.java
+  s_bf05026eb3a866::t_487520eeaadccc 1-686
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/FollowState.java
+  s_bf05026eb3a866::t_249c1d38bdac08 1-85
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/GapLineView.java
+  s_bf05026eb3a866::t_1c4931a0c7678d 1-577
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LayoutShiftRing.java
+  s_bf05026eb3a866::t_973c28ff56164b 1-40
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsActiveLines.java
+  s_bf05026eb3a866::t_29bd1a45772636 1-181
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsFontManager.java
+  s_bf05026eb3a866::t_59ae0931fab86a 1-560
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsFullscreenController.java
+  s_bf05026eb3a866::t_6a1989f5a3f1e7 1-769
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsGlyphMaskCache.java
+  s_bf05026eb3a866::t_65689b45f81557 1-348
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsLayoutCalc.java
+  s_bf05026eb3a866::t_9d326e4647527d 1-144
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsReadingCalc.java
+  s_bf05026eb3a866::t_db0e2321f8e371 1-1206
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsScrollEngine.java
+  s_bf05026eb3a866::t_18fff334982917 1-913
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsSearchDialog.java
+  s_bf05026eb3a866::t_1a24f104859fc3 1-338
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsSectionTags.java
+  s_bf05026eb3a866::t_af8edce2186091 1-108
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsShareCardRenderer.java
+  s_bf05026eb3a866::t_81357b6e30f09d 1-834
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsShareDialog.java
+  s_bf05026eb3a866::t_b6e57e75f09c87 1-1106
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsShareImageProvider.java
+  s_bf05026eb3a866::t_3d5cf2fdf13991 1-154
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsShareSelection.java
+  s_bf05026eb3a866::t_26f71fc302a61b 1-165
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsSheetChrome.java
+  s_bf05026eb3a866::t_177f59de4913b2 1-175
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsTextUtils.java
+  s_bf05026eb3a866::t_fffdfb1eb3f00b 1-130
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsWordBoundaries.java
+  s_bf05026eb3a866::t_593e7e42fb0e94 1-260
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/LyricsWordTimingCalc.java
+  s_bf05026eb3a866::t_316fc283c07e97 1-472
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/OffsetModeState.java
+  s_bf05026eb3a866::t_b63310c505588c 1-105
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/OnlyModeEffect.java
+  s_bf05026eb3a866::t_2519e0c1ae7aeb 1-51
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/OnlyModeState.java
+  s_bf05026eb3a866::t_2ada1855fe0d37 1-272
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/OverlayVisibilityState.java
+  s_bf05026eb3a866::t_0e6e6fe0de8c0d 1-44
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/SeekState.java
+  s_bf05026eb3a866::t_59e24075f78620 1-105
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/SpringEasing.java
+  s_bf05026eb3a866::t_38a504b3fa67cc 1-178
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/WordAnimationUtils.java
+  s_bf05026eb3a866::t_9c69d71ed09be1 1-2821
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/WordSweepAnimator.java
+  s_bf05026eb3a866::t_f7f4382da64d47 1-2475
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/ui/WordTiming.java
+  s_bf05026eb3a866::t_73c04841ca983d 1-48
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/utils/CharactersConverter.java
+  s_bf05026eb3a866::t_91ef9c2a495a2b 1-166
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/utils/LyricsCrypto.java
+  s_bf05026eb3a866::t_88eb2194502da4 1-276
+extensions/music/src/main/java/app/morphe/extension/music/patches/lyrics/utils/TextTrim.java
+  s_bf05026eb3a866::t_cc07f5739d03ff 1-43
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/LocalStreamServer.java
+  s_bf05026eb3a866::t_6efbaabec12d6e 1-433
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/PcmConverter.java
+  s_bf05026eb3a866::t_02b5bce930c3b5 1-156
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/SonosCastBottomSheet.java
+  s_bf05026eb3a866::t_2175306e3982e7 1-354
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/SonosCastManager.java
+  s_bf05026eb3a866::t_0326cfbee5216d 1-467
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/SonosCastPatch.java
+  s_bf05026eb3a866::t_45c90b1fb2329d 1-121
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/SonosDevice.java
+  s_bf05026eb3a866::t_9be8080efd55a5 1-42
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/SonosDiscovery.java
+  s_bf05026eb3a866::t_b7544324a50cf2 1-310
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/SonosSoapClient.java
+  s_bf05026eb3a866::t_cc3106a6bc2666 1-205
+extensions/music/src/main/java/app/morphe/extension/music/patches/sonos/TrackInfo.java
+  s_bf05026eb3a866::t_6016499ee8543f 1-16
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/SoundProofManager.java
+  s_bf05026eb3a866::t_445a11ce725624 1-391
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/SoundProofPatch.java
+  s_bf05026eb3a866::t_be77204c96adb4 1-42
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/data/SoundProofApi.java
+  s_bf05026eb3a866::t_f9796cf315bb2c 1-133
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/data/SoundProofDatabaseLoader.java
+  s_bf05026eb3a866::t_de65cf637cfcaf 1-94
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/data/SoundProofDumpParser.java
+  s_bf05026eb3a866::t_7e87c24b20c5bd 1-106
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/data/SoundProofDumpStore.java
+  s_bf05026eb3a866::t_3953c79ef5cac2 1-109
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/AiDetectionPolicy.java
+  s_bf05026eb3a866::t_043f914390d152 1-38
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/ArtistAssessment.java
+  s_bf05026eb3a866::t_f7c88df1970bbf 1-65
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/ArtistAssessor.java
+  s_bf05026eb3a866::t_50809f1751c444 1-64
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/ArtistCreditSplitter.java
+  s_bf05026eb3a866::t_4f292637436cb4 1-43
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/ArtistDirectory.java
+  s_bf05026eb3a866::t_0f92ca537690ba 1-70
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/ArtistNameNormalizer.java
+  s_bf05026eb3a866::t_8202bcdecb11fc 1-42
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/ArtistRecord.java
+  s_bf05026eb3a866::t_2886494f3bac97 1-46
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/ArtistStatus.java
+  s_bf05026eb3a866::t_39470666747c13 1-19
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/LiveArtistStatus.java
+  s_bf05026eb3a866::t_226930f240ee7b 1-34
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/VoteMajority.java
+  s_bf05026eb3a866::t_d9572356b39aa6 1-43
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/domain/VoteTarget.java
+  s_bf05026eb3a866::t_0caba814424f61 1-44
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/ui/SoundProofAboutPreference.java
+  s_bf05026eb3a866::t_06cf4ec729ce18 1-24
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/ui/SoundProofButton.java
+  s_bf05026eb3a866::t_01c4dd41c6f474 1-83
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/ui/SoundProofSheet.java
+  s_bf05026eb3a866::t_2d9e438aac65fb 1-388
+extensions/music/src/main/java/app/morphe/extension/music/patches/soundproof/ui/StatusAppearance.java
+  s_bf05026eb3a866::t_29f7a70e3171fb 1-51
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/CrossfadeEnabledPreference.java
+  s_bf05026eb3a866::t_2203dc12b92244 1-56
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsCustomFontPreference.java
+  s_bf05026eb3a866::t_689f9e085239c6 1-200
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsEncapsulationPreference.java
+  s_bf05026eb3a866::t_832a3bf49b0d6d 1-49
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsFieldsDialog.java
+  s_bf05026eb3a866::t_b5638bc9f84338 1-95
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsLineLimitsPreference.java
+  s_bf05026eb3a866::t_c0903e59e6638f 1-76
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsLocalRomanizationDownloads.java
+  s_bf05026eb3a866::t_5da7f1b108bf49 1-401
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsProviderConfigDialog.java
+  s_bf05026eb3a866::t_77dffd5512a3a6 1-628
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsRimeDictionaryDialog.java
+  s_bf05026eb3a866::t_e69eace231649a 1-593
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsTargetLanguagePreference.java
+  s_bf05026eb3a866::t_72e055ff3ebac3 1-367
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/LyricsTrackFormatPreference.java
+  s_bf05026eb3a866::t_f6499a71eadde9 1-72
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/MusicGlassMiniplayerPreference.java
+  s_bf05026eb3a866::t_f71b13ed972528 1-245
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/MusicGlassNavigationBarPreference.java
+  s_bf05026eb3a866::t_e017c8483a1f51 1-110
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/PlaylistTagsPreference.java
+  s_bf05026eb3a866::t_74c896042a7e4a 1-42
+extensions/music/src/main/java/app/morphe/extension/music/settings/preference/SpoofVideoStreamsWebsiteSignInPreference.java
+  s_bf05026eb3a866::t_f9bedd256d3a13 1-46
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/DisplayStateTest.java
+  s_bf05026eb3a866::t_a856f96e7743e5 1-223
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsDirectoriesTest.java
+  s_bf05026eb3a866::t_18ef6a18d34d38 1-57
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsFixtures.java
+  s_bf05026eb3a866::t_b11c581b608b6d 1-82
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsManagerLocalCycleTest.java
+  s_bf05026eb3a866::t_b86d02d58baae4 1-91
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsManagerMathTest.java
+  s_bf05026eb3a866::t_045cc464a5d2a2 1-89
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsManagerPauseSyncTest.java
+  s_bf05026eb3a866::t_b0f601451b4d82 1-123
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsManagerSectionCacheTest.java
+  s_bf05026eb3a866::t_e51947e3d1765f 1-47
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsMatchTest.java
+  s_bf05026eb3a866::t_df6440df675773 1-328
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsPresentationTest.java
+  s_bf05026eb3a866::t_db1abe7c72db8a 1-225
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsProvidersTest.java
+  s_bf05026eb3a866::t_471d62f7288154 1-145
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsTestEnv.java
+  s_bf05026eb3a866::t_be94ea91267ebd 1-326
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/LyricsTestEnvSpikeTest.java
+  s_bf05026eb3a866::t_8d1d68f8704b5f 1-69
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/PlaybackClockTest.java
+  s_bf05026eb3a866::t_0f191f7bde01d8 1-115
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/QueueTracksTest.java
+  s_bf05026eb3a866::t_5a4337856d4994 1-92
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/SkipSegmentsTest.java
+  s_bf05026eb3a866::t_3d97d2f989b831 1-277
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/derive/LyricsLanguageDetectorTest.java
+  s_bf05026eb3a866::t_bf43e737a764da 1-75
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/derive/LyricsRomanizerTest.java
+  s_bf05026eb3a866::t_59fe8b7a3133e2 1-218
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/derive/LyricsTranslatorTest.java
+  s_bf05026eb3a866::t_421fd11f534115 1-134
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/derive/OpenAIClientTest.java
+  s_bf05026eb3a866::t_6543f7c7e51685 1-301
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/derive/ProcessingProvidersTest.java
+  s_bf05026eb3a866::t_8ee579f2a84668 1-195
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/derive/QuickLRCClientTest.java
+  s_bf05026eb3a866::t_a3c48d4643097e 1-238
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/derive/SectionDetectorTest.java
+  s_bf05026eb3a866::t_1647d99df32c3f 1-150
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/ArtistLineCycleTest.java
+  s_bf05026eb3a866::t_d2221f4e0d5d00 1-64
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/CreditInfoTest.java
+  s_bf05026eb3a866::t_f6484773d45172 1-37
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/EncapsulationRepeatTest.java
+  s_bf05026eb3a866::t_9a73bc9c74ec55 1-40
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsBracketSplitterTest.java
+  s_bf05026eb3a866::t_226b6a7700e959 1-181
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsFilterDefaultsTest.java
+  s_bf05026eb3a866::t_28e24523069f75 1-65
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsFilterTest.java
+  s_bf05026eb3a866::t_1e53ffb3c556de 1-192
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsLineTest.java
+  s_bf05026eb3a866::t_894aa9f1650d95 1-139
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsLineWordTimingsTest.java
+  s_bf05026eb3a866::t_2496f366b4e0ba 1-100
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsMergeTest.java
+  s_bf05026eb3a866::t_e4bf1bc64fa12a 1-153
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsPreferenceTest.java
+  s_bf05026eb3a866::t_0cafe6f5f5376b 1-54
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsPresentationTest.java
+  s_bf05026eb3a866::t_035a505aeea820 1-196
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsRetimingTest.java
+  s_bf05026eb3a866::t_189e08af384ab1 1-138
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsTest.java
+  s_bf05026eb3a866::t_194472b0986dfa 1-118
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/LyricsTextFormatterHanTest.java
+  s_bf05026eb3a866::t_a536f4a0790f7a 1-122
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/MetadataCleanerTest.java
+  s_bf05026eb3a866::t_e18a50926987f5 1-236
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/MiniLyricsFormatterExtrasTest.java
+  s_bf05026eb3a866::t_0da8837b80ac5a 1-121
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/MiniLyricsGapTest.java
+  s_bf05026eb3a866::t_ec24b24bee106c 1-183
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/MiniLyricsTimelineTest.java
+  s_bf05026eb3a866::t_08acf543868d55 1-184
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/PairedPunctuationExtrasTest.java
+  s_bf05026eb3a866::t_a599ac260cf51c 1-108
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/PairedPunctuationTest.java
+  s_bf05026eb3a866::t_e31efcbd1c30c2 1-78
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/TrackFormatTest.java
+  s_bf05026eb3a866::t_d69d10434df6fb 1-125
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/TrackInfoTest.java
+  s_bf05026eb3a866::t_d95d687b4a6f9e 1-74
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/TrackVersionTest.java
+  s_bf05026eb3a866::t_75dd3c361f18d5 1-72
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/model/WordTest.java
+  s_bf05026eb3a866::t_f3bce83ea50cdc 1-66
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/parsers/KRCParserTest.java
+  s_bf05026eb3a866::t_6a4a4a77f0f0cd 1-132
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/parsers/LRCParserSyncedDetectionTest.java
+  s_bf05026eb3a866::t_f2dd32350d119c 1-192
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/parsers/LRCParserTest.java
+  s_bf05026eb3a866::t_3347182c28c9e4 1-438
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/parsers/LyricifyParserTest.java
+  s_bf05026eb3a866::t_458751536d17ee 1-156
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/parsers/LyricsFileParserTest.java
+  s_bf05026eb3a866::t_4fd3ed3b79c5d5 1-166
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/parsers/TTMLGeneratorTest.java
+  s_bf05026eb3a866::t_7a5ef784f94186 1-617
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/parsers/TTMLParserTest.java
+  s_bf05026eb3a866::t_dc18f638e84732 1-266
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/DeezerProviderStaticTest.java
+  s_bf05026eb3a866::t_ad070a797e3a34 1-89
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/GeniusProviderStaticTest.java
+  s_bf05026eb3a866::t_5124fecf7dcbe5 1-255
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/KuwoProviderStaticTest.java
+  s_bf05026eb3a866::t_30b947f4b3b4f0 1-168
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LRCLIBProviderStaticTest.java
+  s_bf05026eb3a866::t_e703d60ebf7cb9 1-86
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LRCRedProviderStaticTest.java
+  s_bf05026eb3a866::t_eec6902d61495c 1-163
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LocalLyricsFetcherStaticTest.java
+  s_bf05026eb3a866::t_574a7af0212012 1-785
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LocalLyricsMatchingTest.java
+  s_bf05026eb3a866::t_ea5340e0a8dcaf 1-89
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LunaBeatProviderStaticTest.java
+  s_bf05026eb3a866::t_c4ead2a31182c7 1-82
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LunaProviderStaticTest.java
+  s_bf05026eb3a866::t_4b93ad53578965 1-99
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LyricsEndpointsTest.java
+  s_bf05026eb3a866::t_25989bca6fff99 1-65
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LyricsPlusProviderStaticTest.java
+  s_bf05026eb3a866::t_25a47e803c8199 1-77
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LyricsRequestsHelpersTest.java
+  s_bf05026eb3a866::t_ca51c33f43e2e4 1-290
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LyricsRequestsJsonTest.java
+  s_bf05026eb3a866::t_4cb00381bb5596 1-239
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LyricsRequestsLangTest.java
+  s_bf05026eb3a866::t_63d21547e5196c 1-176
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LyricsRequestsMatchTest.java
+  s_bf05026eb3a866::t_7cdf5f4ccfbd3f 1-358
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/LyricsRequestsTest.java
+  s_bf05026eb3a866::t_3039c41b600eb3 1-282
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/PetitLyricsProviderStaticTest.java
+  s_bf05026eb3a866::t_5d89d758a1c281 1-683
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/RMMProviderStaticTest.java
+  s_bf05026eb3a866::t_60d38a6544a1de 1-100
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/ScoredSongProviderTest.java
+  s_bf05026eb3a866::t_50530cecb51a17 1-217
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/SimpMusicProviderStaticTest.java
+  s_bf05026eb3a866::t_a451baa744b223 1-638
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/SpotifyProviderStaticTest.java
+  s_bf05026eb3a866::t_4635f365df6fd8 1-85
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/UnisonProviderStaticTest.java
+  s_bf05026eb3a866::t_77aabb6b8cd5b5 1-150
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/requests/YouTubeMusicProviderStaticTest.java
+  s_bf05026eb3a866::t_f041483385f9d5 1-289
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/AlphabetRomanizerTest.java
+  s_bf05026eb3a866::t_48e6f3d92a5ff1 1-172
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/CharReadingTableTest.java
+  s_bf05026eb3a866::t_8c47ee16e2b1a2 1-107
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/CjkWordGroupsTest.java
+  s_bf05026eb3a866::t_f2b71cb52be9cb 1-40
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/CldrTransformsStoreTest.java
+  s_bf05026eb3a866::t_862fb1d99bfd39 1-318
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/CldrTransformsTest.java
+  s_bf05026eb3a866::t_34abea6def313f 1-44
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/HanRomanizerTest.java
+  s_bf05026eb3a866::t_014c2e9b2f4544 1-134
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/HangulRomanizerTest.java
+  s_bf05026eb3a866::t_cb935ff38fab7e 1-90
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/IcuRomanizerTest.java
+  s_bf05026eb3a866::t_8e69828da54560 1-64
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/JapaneseDictionaryStoreTest.java
+  s_bf05026eb3a866::t_72adee3e66d7ed 1-182
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/JiebaSegmenterTest.java
+  s_bf05026eb3a866::t_e3ce43a4579e57 1-80
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/KanaRomanizerTest.java
+  s_bf05026eb3a866::t_0d7220cf411f78 1-161
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/KuromojiRomanizerTest.java
+  s_bf05026eb3a866::t_9e99968e680b5b 1-355
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/LocalRomanizerTest.java
+  s_bf05026eb3a866::t_0dbb8e95bd9dd9 1-360
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/PinyinDictionaryStoreTest.java
+  s_bf05026eb3a866::t_f89396577cb25f 1-110
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/PinyinRomanizerTest.java
+  s_bf05026eb3a866::t_ee3c3b767a7312 1-140
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/RimeDictionaryStoreTest.java
+  s_bf05026eb3a866::t_8bf45bab1f4988 1-293
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/RimeRomanizerTest.java
+  s_bf05026eb3a866::t_79bef8ba27cef9 1-59
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/RomanizationsTest.java
+  s_bf05026eb3a866::t_5b27741bd40c20 1-94
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/RubyGeneratorTest.java
+  s_bf05026eb3a866::t_12ee5a1e0fa8e7 1-71
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/ScriptDetectorTest.java
+  s_bf05026eb3a866::t_fb1efa98630df7 1-468
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/UniDictionaryStoreTest.java
+  s_bf05026eb3a866::t_3a624348c94410 1-193
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/WordReadingTableTest.java
+  s_bf05026eb3a866::t_f5c537083d8c8c 1-190
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/romanizers/WordTableFileTest.java
+  s_bf05026eb3a866::t_e4ffcdf686f9dd 1-56
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/storage/LyricsCacheTest.java
+  s_bf05026eb3a866::t_63784fd7fdf673 1-390
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/storage/LyricsFileSaverTest.java
+  s_bf05026eb3a866::t_f6a49568b201b1 1-162
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/storage/TrackOffsetStoreTest.java
+  s_bf05026eb3a866::t_28d8a22374d109 1-83
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/BoxBlurTest.java
+  s_bf05026eb3a866::t_ec798efbabce14 1-48
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/DeviceLyricsTabTest.java
+  s_bf05026eb3a866::t_cc0b9f25c7a1a0 1-47
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/FollowStateTest.java
+  s_bf05026eb3a866::t_1fe6614e910ff6 1-55
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LayoutShiftRingTest.java
+  s_bf05026eb3a866::t_1f9bae9b2ee8c1 1-37
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsActiveLinesTest.java
+  s_bf05026eb3a866::t_45f05bf36b5da5 1-300
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsFitTest.java
+  s_bf05026eb3a866::t_8341848208fd4c 1-103
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsFontAndShareTest.java
+  s_bf05026eb3a866::t_7ff3f79e3f5595 1-272
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsLayoutCalcTest.java
+  s_bf05026eb3a866::t_4923019e494bc4 1-228
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsReadingCalcTest.java
+  s_bf05026eb3a866::t_4f12d3d8a6228b 1-653
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsScrollEngineFlipTest.java
+  s_bf05026eb3a866::t_013e0976177442 1-119
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsSectionTagsTest.java
+  s_bf05026eb3a866::t_911bb29b284f9e 1-181
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsSpanBuilderDisplayTest.java
+  s_bf05026eb3a866::t_d729c3ce2e1b78 1-230
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsSpanBuilderExtrasTest.java
+  s_bf05026eb3a866::t_0870caa850cd5c 1-398
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsSpanBuilderRomanizationTest.java
+  s_bf05026eb3a866::t_b7288d4ba5ee15 1-85
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsViewSupportTest.java
+  s_bf05026eb3a866::t_2ebb52bb0befb3 1-210
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/LyricsWordTimingCalcTest.java
+  s_bf05026eb3a866::t_411f8ecdb70e92 1-397
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/OffsetModeStateTest.java
+  s_bf05026eb3a866::t_8fc5a1cb04d8c6 1-59
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/OnlyModeStateTest.java
+  s_bf05026eb3a866::t_536a26c5ac87bc 1-226
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/OverlayVisibilityStateTest.java
+  s_bf05026eb3a866::t_8cbf857af9ef41 1-49
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/SectionDotsMotionTest.java
+  s_bf05026eb3a866::t_18edcfb2fb3784 1-155
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/SeekStateTest.java
+  s_bf05026eb3a866::t_3d08af4565fa99 1-73
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/SpringEasingTest.java
+  s_bf05026eb3a866::t_8a4522f5828525 1-130
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/ui/WordAnimationUtilsTest.java
+  s_bf05026eb3a866::t_da44e4b114debf 1-502
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/utils/CharactersConverterTest.java
+  s_bf05026eb3a866::t_2e2e21a237e18c 1-77
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/utils/LyricsCryptoTest.java
+  s_bf05026eb3a866::t_ee420860a014bc 1-118
+extensions/music/src/test/java/app/morphe/extension/music/patches/lyrics/utils/TextTrimTest.java
+  s_bf05026eb3a866::t_cdbae9168863bd 1-55
+extensions/music/src/test/java/app/morphe/extension/music/patches/soundproof/domain/AiDetectionPolicyTest.java
+  s_bf05026eb3a866::t_77e43b538724a3 1-58
+extensions/music/src/test/java/app/morphe/extension/music/patches/soundproof/domain/ArtistAssessorTest.java
+  s_bf05026eb3a866::t_e1425b6932066e 1-65
+extensions/music/src/test/java/app/morphe/extension/music/patches/soundproof/domain/ArtistCreditSplitterTest.java
+  s_bf05026eb3a866::t_ae411b37b3971b 1-49
+extensions/music/src/test/java/app/morphe/extension/music/patches/soundproof/domain/ArtistDirectoryTest.java
+  s_bf05026eb3a866::t_4a8f43a37d1b98 1-50
+extensions/music/src/test/java/app/morphe/extension/music/patches/soundproof/domain/ArtistNameNormalizerTest.java
+  s_bf05026eb3a866::t_bdedf3e13ddae0 1-44
+extensions/music/src/test/java/app/morphe/extension/music/patches/soundproof/domain/VoteMajorityTest.java
+  s_bf05026eb3a866::t_c1b0f483263fba 1-45
+extensions/music/src/test/java/app/morphe/extension/music/patches/soundproof/domain/VoteTargetTest.java
+  s_bf05026eb3a866::t_210d26c8bcb4ca 1-37
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/misc/MediaTime.java
+  s_bf05026eb3a866::t_0434162a87102d 1-29
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/AudioTagWriter.java
+  s_bf05026eb3a866::t_e7b9bca8502d58 1-509
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/BaseInAppDownloadsPatch.java
+  s_bf05026eb3a866::t_92f86bc2f465ef 1-960
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/BaseVideoInformation.java
+  s_bf05026eb3a866::t_57e99474d852dc 1-62
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/ElementProtoParserPatch.java
+  s_bf05026eb3a866::t_e171d9d0025e31 1-79
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/MediaHttpHeader.java
+  s_bf05026eb3a866::t_95f885027214a1 1-22
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/MediaHttpRequest.java
+  s_bf05026eb3a866::t_09e5fb48004229 1-35
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/OfflineVideoExporter.java
+  s_bf05026eb3a866::t_688074128e597f 1-1583
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/PrioritizeVideoQualityPatch.java
+  s_bf05026eb3a866::t_fe86f48290b9fe 1-109
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/VideoEffectDialog.java
+  s_bf05026eb3a866::t_76940772ab415d 1-123
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/VideoEffectPresets.java
+  s_bf05026eb3a866::t_e513a3aae5ac44 1-500
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/VideoEffectsPatch.java
+  s_bf05026eb3a866::t_eaa7576f52bea7 1-1315
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/VideoFormat.java
+  s_bf05026eb3a866::t_8102d24944744a 1-44
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/glassmenus/AppBackdropDrawable.java
+  s_bf05026eb3a866::t_dc7c1b3b0ad74f 1-213
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/glassmenus/BlurRegion.java
+  s_bf05026eb3a866::t_4be7f4bc1e7044 1-176
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/glassmenus/GlassMenusPatch.java
+  s_bf05026eb3a866::t_d0ba72d475a697 1-1089
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/glassmenus/LithoFills.java
+  s_bf05026eb3a866::t_725f85c4a7275e 1-138
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/glassmenus/SolidColors.java
+  s_bf05026eb3a866::t_cca22b0aad6c98 1-97
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/requests/NetworkReconnect.java
+  s_bf05026eb3a866::t_2cef1db1b96458 1-131
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/ClearNewSettingsIndicatorPreference.java
+  s_bf05026eb3a866::t_fefe82cf895311 1-74
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/ExportFolderPreference.java
+  s_bf05026eb3a866::t_6750be4e6ad42c 1-75
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/GlassNavigationBarSizePreference.java
+  s_bf05026eb3a866::t_b7a4bebe28b405 1-403
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/NewSettingsIndicator.java
+  s_bf05026eb3a866::t_c1f1a544156f7f 1-345
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/VideoEffectCustomEffectsPreference.java
+  s_bf05026eb3a866::t_95cc8e00e01824 1-250
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/VideoEffectEditor.java
+  s_bf05026eb3a866::t_abdf9fae94d9de 1-248
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/VideoEffectListPreference.java
+  s_bf05026eb3a866::t_277e8a32e71bcd 1-64
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/settings/preference/WebsiteSignInPreference.java
+  s_bf05026eb3a866::t_cbe269d37594f2 1-371
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/sponsorblock/SponsorBlockOfflineStorage.java
+  s_bf05026eb3a866::t_56aa7c1e43e43c 1-204
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/InnerTubeRequestBody.java
+  s_bf05026eb3a866::t_b95b34a16ab0d5 1-65
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/SabrContexts.java
+  s_bf05026eb3a866::t_01ae2511f45f38 1-188
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/SabrMediaLogger.java
+  s_bf05026eb3a866::t_a0a47503aac353 1-192
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/SabrReadaheadLimit.java
+  s_bf05026eb3a866::t_ed5826bff954b8 1-247
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/SabrRequestBody.java
+  s_bf05026eb3a866::t_7917f60a93c411 1-182
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/SabrResponseReader.java
+  s_bf05026eb3a866::t_503dd2e3e014dd 1-247
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/WebViewCheck.java
+  s_bf05026eb3a866::t_228b2ec267a96a 1-188
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/WebViewProfiles.java
+  s_bf05026eb3a866::t_90cced9b9403c2 1-216
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/WebsiteSession.java
+  s_bf05026eb3a866::t_bf19e82ff8537f 1-1530
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/WebsiteSignIn.java
+  s_bf05026eb3a866::t_b146c36e323d8a 1-498
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/spoof/WebsiteStream.java
+  s_bf05026eb3a866::t_641120282fe47f 1-350
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/ui/glass/GlassBackdrop.java
+  s_bf05026eb3a866::t_502cc588c34694 1-131
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/ui/glass/GlassCapsuleDrawable.java
+  s_bf05026eb3a866::t_475fd51f588303 1-631
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/ui/glass/GlassNavigationBarLayout.java
+  s_bf05026eb3a866::t_5f373b05854295 1-333
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/browse_response.proto
+  s_bf05026eb3a866::t_adb41bcfb55b5f 1-20
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/guide_response.proto
+  s_bf05026eb3a866::t_8f84b588483cbd 1-255
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/icon.proto
+  s_bf05026eb3a866::t_fe642588dbb721 1-1302
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/list_item_element.proto
+  s_bf05026eb3a866::t_8e6d66f3fa9756 1-47
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/menu.proto
+  s_bf05026eb3a866::t_3f232e4ce911db 1-76
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/music_video_action_bar_element.proto
+  s_bf05026eb3a866::t_56a413152d4b63 1-121
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/offline.proto
+  s_bf05026eb3a866::t_1b34799a0f9079 1-251
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/playlist_queue.proto
+  s_bf05026eb3a866::t_78ca83e320308b 1-444
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/push_notification.proto
+  s_bf05026eb3a866::t_5a6e4da7f49c8c 1-18
+extensions/shared-youtube/library/src/main/proto/app/morphe/extension/shared/innertube/saved_video.proto
+  s_bf05026eb3a866::t_f67b8e3edcb08e 1-64
+extensions/shared-youtube/stub/src/main/java/com/google/android/libraries/youtube/media/interfaces/HttpHeader.java
+  s_bf05026eb3a866::t_01c566f0c5d4ac 1-12
+extensions/shared/library/src/main/java/app/morphe/extension/shared/patches/PatchesUpdateNoticePatch.java
+  s_bf05026eb3a866::t_09c4b5ac318f80 1-528
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/AbstractFeatureFlagsManagerPreference.java
+  s_bf05026eb3a866::t_f980d46001fda4 1-1074
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/BooleanSettingPreference.java
+  s_bf05026eb3a866::t_fc5cc1c6dda4ec 1-95
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/FeatureFlags.java
+  s_bf05026eb3a866::t_697b2ec40071e3 1-124
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/FeatureFlagsBisect.java
+  s_bf05026eb3a866::t_eec450424c019c 1-233
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/NewIndicatorSpan.java
+  s_bf05026eb3a866::t_3d3f9bfcada252 1-133
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/PreferenceTranslations.java
+  s_bf05026eb3a866::t_4a6419754c30e7 1-160
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/SeekBarsPreviewPreference.java
+  s_bf05026eb3a866::t_9df889a6afaa2e 1-165
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/SettingChange.java
+  s_bf05026eb3a866::t_1eb19c1055d6f3 1-118
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/SettingPreference.java
+  s_bf05026eb3a866::t_69404a607a4fdb 1-25
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/about/AboutStylesheet.java
+  s_bf05026eb3a866::t_154c162465fc6a 1-685
+extensions/shared/library/src/main/java/app/morphe/extension/shared/settings/preference/about/MorpheSupportersDialog.java
+  s_bf05026eb3a866::t_7d12f404d10da4 1-84
+extensions/shared/library/src/main/java/app/morphe/extension/shared/translation/DeepLClient.java
+  s_bf05026eb3a866::t_0a4e9e31a3c8bc 1-127
+extensions/youtube/src/main/java/app/morphe/extension/youtube/ambientlight/AmbientLightController.java
+  s_bf05026eb3a866::t_17acc6b1293b6a 1-1787
+extensions/youtube/src/main/java/app/morphe/extension/youtube/ambientlight/AmbientLightMath.java
+  s_bf05026eb3a866::t_7d1e02592f0c2f 1-730
+extensions/youtube/src/main/java/app/morphe/extension/youtube/ambientlight/LightGl.java
+  s_bf05026eb3a866::t_0a888688596759 1-316
+extensions/youtube/src/main/java/app/morphe/extension/youtube/ambientlight/LightSurface.java
+  s_bf05026eb3a866::t_9fde493f27721a 1-178
+extensions/youtube/src/main/java/app/morphe/extension/youtube/ambientlight/LightView.java
+  s_bf05026eb3a866::t_04cbd0920665d1 1-46
+extensions/youtube/src/main/java/app/morphe/extension/youtube/ambientlight/SeeThroughPage.java
+  s_bf05026eb3a866::t_7f33d51c606b96 1-1097
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/Blend.java
+  s_bf05026eb3a866::t_65a7b5ced0c3ca 1-40
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/HoldGesture.java
+  s_bf05026eb3a866::t_a9097418bdc05c 1-538
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/HoldGestureController.java
+  s_bf05026eb3a866::t_f6bb29b79f1434 1-924
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/HoldGestureOverlayView.java
+  s_bf05026eb3a866::t_12b87c9a677de3 1-798
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/HoldLauncherView.java
+  s_bf05026eb3a866::t_957d60495a5f91 1-417
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/LauncherAction.java
+  s_bf05026eb3a866::t_9f76c845d68aa3 1-89
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/LauncherIcon.java
+  s_bf05026eb3a866::t_fbb5bdce96ef15 1-151
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/RadialLayout.java
+  s_bf05026eb3a866::t_5635dbb7517dad 1-301
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/DualCaptionOverlay.java
+  s_bf05026eb3a866::t_5687f48abdac90 1-332
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/FixDescriptionCountsPatch.java
+  s_bf05026eb3a866::t_6cad127711a395 1-95
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/FixLithoLayoutLoopPatch.java
+  s_bf05026eb3a866::t_16bca436edcebb 1-26
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/FixMediaSessionStopPatch.java
+  s_bf05026eb3a866::t_66634a5df19ff5 1-107
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/FixPagePaddingPatch.java
+  s_bf05026eb3a866::t_71da20f3f1083e 1-100
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/FullscreenPlaylistPanelPatch.java
+  s_bf05026eb3a866::t_0545ca9dbd991d 1-43
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/LiveChatTranslatePatch.java
+  s_bf05026eb3a866::t_aa81ad1a4149d3 1-1005
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/LoopCountPatch.java
+  s_bf05026eb3a866::t_7f5bd80f71fe8b 1-489
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/NativeCaptionPair.java
+  s_bf05026eb3a866::t_eb8110afdc0ef5 1-68
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/NativeCaptionPlacement.java
+  s_bf05026eb3a866::t_f29cb36e9b0b73 1-196
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/NativeSnackbarPatch.java
+  s_bf05026eb3a866::t_f11800f6a8cf8c 1-157
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/OpenPostImagesFullscreenPatch.java
+  s_bf05026eb3a866::t_26ac20c408faab 1-85
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/PlaylistPatch.java
+  s_bf05026eb3a866::t_1d4329de791806 1-477
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/PlaylistSearchPatch.java
+  s_bf05026eb3a866::t_0b8e789216c94f 1-195
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/PostImageDownloadPatch.java
+  s_bf05026eb3a866::t_80d9dd4f4d324f 1-1324
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/PostTranslatePatch.java
+  s_bf05026eb3a866::t_564cc11eb520d2 1-895
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ReversePlaylistAutoplayPatch.java
+  s_bf05026eb3a866::t_bc72768b3b0ebc 1-53
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/SavePushNotificationsPatch.java
+  s_bf05026eb3a866::t_aa1ca46d9dff0d 1-117
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/SnackbarPatch.java
+  s_bf05026eb3a866::t_e6c97aa4d67ce5 1-295
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/StableCaptionBlockPolicy.java
+  s_bf05026eb3a866::t_236df8de86109c 1-515
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/StableCaptionBlocks.java
+  s_bf05026eb3a866::t_654eaac13b1e58 1-576
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/TranslatedRollingCaptionPolicy.java
+  s_bf05026eb3a866::t_d88e94a93c9c35 1-167
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/UngroupNotificationsPatch.java
+  s_bf05026eb3a866::t_bdfe25c41f5916 1-154
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/UploadedCaptionPair.java
+  s_bf05026eb3a866::t_f99ca591333aef 1-52
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/YouTubeGlassNavigationBar.java
+  s_bf05026eb3a866::t_8818a76d2a5d5d 1-737
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/car/CarDisplay.java
+  s_bf05026eb3a866::t_f3971421de116a 1-331
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/car/CarNavigationBar.java
+  s_bf05026eb3a866::t_001b9f1127150c 1-317
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/components/CommentsElements.java
+  s_bf05026eb3a866::t_40c22a31e96479 1-201
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/components/CommentsSearchFilter.java
+  s_bf05026eb3a866::t_7743301c33c2f3 1-564
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/components/VideoDurationFilter.java
+  s_bf05026eb3a866::t_ca39c41180f90c 1-157
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/components/ViewCountFilter.java
+  s_bf05026eb3a866::t_08ea528c0f24ed 1-129
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/dearrow/DeArrowAccountRequest.java
+  s_bf05026eb3a866::t_32bc7b46b3d0c1 1-128
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/dearrow/DeArrowVoteButton.java
+  s_bf05026eb3a866::t_d7c112f977fd33 1-65
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/dearrow/DeArrowVoteDialog.java
+  s_bf05026eb3a866::t_a6422b68e7d137 1-1171
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/dearrow/DeArrowVoteRequest.java
+  s_bf05026eb3a866::t_c7863f4cf6b07c 1-280
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/dearrow/TitleCleanup.java
+  s_bf05026eb3a866::t_47d8f6fd9b3c9f 1-511
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/dearrow/TitleCleanupData.java
+  s_bf05026eb3a866::t_41c6aaeb834352 1-175
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostChannelManagerDialog.java
+  s_bf05026eb3a866::t_83af9fd4bda4e4 1-681
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostChannelSearchApi.java
+  s_bf05026eb3a866::t_d492bb0e693aeb 1-558
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostChannelStore.java
+  s_bf05026eb3a866::t_45e73259e3ffdc 1-214
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostHistoryDialog.java
+  s_bf05026eb3a866::t_2f7ba2700331e2 1-839
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostHistoryStore.java
+  s_bf05026eb3a866::t_8ba3210a4403de 1-210
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostJsonFile.java
+  s_bf05026eb3a866::t_f19553a0a17e44 1-82
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostPlayPatch.java
+  s_bf05026eb3a866::t_1291b68e47024b 1-877
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostPlayToolbarButton.java
+  s_bf05026eb3a866::t_8ba1102177e9d9 1-385
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ghostplay/GhostTheme.java
+  s_bf05026eb3a866::t_6ade71999b4e9f 1-193
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/notifications/InboxResponseFlattener.java
+  s_bf05026eb3a866::t_0f8210c0b5cef8 1-577
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/notifications/InboxResponseLogger.java
+  s_bf05026eb3a866::t_81a74f5eae5a88 1-142
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/notifications/InboxVideos.java
+  s_bf05026eb3a866::t_1a277c048f99d4 1-35
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/notifications/PlayedVideoTracker.java
+  s_bf05026eb3a866::t_a9eca1661e8afc 1-65
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/notifications/SeenEntities.java
+  s_bf05026eb3a866::t_108bf3233131a9 1-115
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/notifications/SeenVideos.java
+  s_bf05026eb3a866::t_3857c71daa6f2e 1-127
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/notifications/TimedVideoIds.java
+  s_bf05026eb3a866::t_c5cc5f32fe8d52 1-103
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/onthego/OnTheGoFilter.java
+  s_bf05026eb3a866::t_0674f08b665082 1-117
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/onthego/OnTheGoPatch.java
+  s_bf05026eb3a866::t_8b681aa97a83eb 1-310
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/onthego/OnTheGoSheet.java
+  s_bf05026eb3a866::t_ff544f5415cd22 1-1062
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/playback/speed/ReplaySwipeGesture.java
+  s_bf05026eb3a866::t_5ddf831fa20729 1-82
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/playback/speed/ReplayVideoController.java
+  s_bf05026eb3a866::t_f45b4950989f50 1-160
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/playback/speed/ShortsPlaybackSpeedFlyoutPatch.java
+  s_bf05026eb3a866::t_a58a8145e58508 1-84
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/MixPlaylistRequest.java
+  s_bf05026eb3a866::t_6bb2f7a3abc7f4 1-105
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/NativePlaylistQueuePatch.java
+  s_bf05026eb3a866::t_38b8b7879cd9e9 1-3722
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/PlaylistCardSource.java
+  s_bf05026eb3a866::t_4763c05950e3c0 1-285
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/PlaylistMetadataRequest.java
+  s_bf05026eb3a866::t_b9f2683a1fc73f 1-71
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/PlaylistPage.java
+  s_bf05026eb3a866::t_4a243bda96bf2a 1-202
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/PlaylistPages.java
+  s_bf05026eb3a866::t_0ec075cc3a004b 1-173
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/PlaylistQueue.java
+  s_bf05026eb3a866::t_49056530b74ec1 1-287
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueFlyoutActions.java
+  s_bf05026eb3a866::t_55626e3ba32bad 1-469
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueFullscreenActions.java
+  s_bf05026eb3a866::t_d6c84f00d0e7af 1-97
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueMixActions.java
+  s_bf05026eb3a866::t_21c64bb9c07fbb 1-38
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueRatingActions.java
+  s_bf05026eb3a866::t_3f598bd4c5cb53 1-123
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueSaveActions.java
+  s_bf05026eb3a866::t_210f30027b8084 1-223
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueSaveFeedback.java
+  s_bf05026eb3a866::t_d94acbe06ea116 1-109
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueShortsSession.java
+  s_bf05026eb3a866::t_002bdb02e52d68 1-65
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueStart.java
+  s_bf05026eb3a866::t_6205a8761e5cc0 1-54
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/QueueUndoActions.java
+  s_bf05026eb3a866::t_0475cc9142e260 1-65
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/queue/VideoMetadata.java
+  s_bf05026eb3a866::t_2ebd52990c1fe0 1-320
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/returnyoutubeusername/ChannelNameRequest.java
+  s_bf05026eb3a866::t_11215f3843232d 1-300
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/returnyoutubeusername/ReturnYouTubeUsernamePatch.java
+  s_bf05026eb3a866::t_296b7a1bafd915 1-212
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/spans/SnackbarFilter.java
+  s_bf05026eb3a866::t_3a48932a0fef56 1-49
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/CompactNumbers.java
+  s_bf05026eb3a866::t_7379eca511b780 1-222
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/EntityKeys.java
+  s_bf05026eb3a866::t_b8b90c4e9455b3 1-32
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/SearchDialog.java
+  s_bf05026eb3a866::t_c6ce183a1433b0 1-90
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/SearchResultsSheet.java
+  s_bf05026eb3a866::t_22915e00ac9de5 1-471
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/requests/CaptionTrackRequest.java
+  s_bf05026eb3a866::t_e896e81678dd67 1-200
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/requests/ChannelPostsSearchRequest.java
+  s_bf05026eb3a866::t_a72f0f89f40ef1 1-517
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/requests/MarkWatchedRequest.java
+  s_bf05026eb3a866::t_62176e4e867936 1-172
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/utils/requests/PlaylistSearchRequest.java
+  s_bf05026eb3a866::t_d552b8c3c09dfc 1-229
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/CaptionLanguagePreference.java
+  s_bf05026eb3a866::t_b20ffc52237ee5 1-79
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/CustomSeekbarThumbPreference.java
+  s_bf05026eb3a866::t_e00cbe09f66941 1-122
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/DeArrowAccountPreferenceCategory.java
+  s_bf05026eb3a866::t_088114a69b0336 1-193
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/DeArrowGuidelinesPreference.java
+  s_bf05026eb3a866::t_6691e4f9f16430 1-42
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/DeArrowPrivateUserIdPreference.java
+  s_bf05026eb3a866::t_590700105cfa2d 1-49
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/DeArrowTimeStepPreference.java
+  s_bf05026eb3a866::t_dea4b09712887b 1-59
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/DeArrowVoteButtonSwitchPreference.java
+  s_bf05026eb3a866::t_dbae8597eb7265 1-52
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/DownloadQualityAboutPreference.java
+  s_bf05026eb3a866::t_0fa34f9f0b643b 1-75
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/GhostChannelsPreference.java
+  s_bf05026eb3a866::t_7744015cd077bd 1-57
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/GhostHistoryLimitPreference.java
+  s_bf05026eb3a866::t_02e79d27346002 1-77
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/GhostHistoryPreference.java
+  s_bf05026eb3a866::t_f472e08bef991d 1-62
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/GuidelinesSwitchPreference.java
+  s_bf05026eb3a866::t_c004112026af1f 1-96
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/HoldGestureLauncherActionPreference.java
+  s_bf05026eb3a866::t_7de055ddded022 1-72
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/HoldGestureSwitchPreference.java
+  s_bf05026eb3a866::t_cfe485ca98bc1e 1-114
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/LoopCountClearPreference.java
+  s_bf05026eb3a866::t_8aa1bf1cf9afae 1-84
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/NavigationButtonsOrderPreference.java
+  s_bf05026eb3a866::t_9a47eae77f1d36 1-203
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/NiconicoCommentsSeparatePortraitPreference.java
+  s_bf05026eb3a866::t_7dc305df5b6870 1-50
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/PressToSwipeSwitchPreference.java
+  s_bf05026eb3a866::t_4fdeba13fc7bf8 1-62
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/SavedPushNotificationsPreference.java
+  s_bf05026eb3a866::t_d3ee7db02a6d06 1-99
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/SpoofVideoStreamsWebsiteSignInPreference.java
+  s_bf05026eb3a866::t_248a57f230a7e0 1-48
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/WatchLaterPlaylistPreference.java
+  s_bf05026eb3a866::t_72d5248fb90ee5 1-53
+extensions/youtube/src/main/java/app/morphe/extension/youtube/settings/preference/YouTubeGlassNavigationBarPreference.java
+  s_bf05026eb3a866::t_2c991216812e81 1-95
+extensions/youtube/src/main/java/app/morphe/extension/youtube/shared/Event.java
+  s_bf05026eb3a866::t_3d56fb120ede43 1-48
+extensions/youtube/src/main/java/app/morphe/extension/youtube/shared/LithoDrawables.java
+  s_bf05026eb3a866::t_036d9b64888771 1-31
+extensions/youtube/src/main/java/app/morphe/extension/youtube/shared/PlayerControlsVisibility.java
+  s_bf05026eb3a866::t_1f288594da4c52 1-69
+extensions/youtube/src/main/java/app/morphe/extension/youtube/shared/PlayerControlsVisibilityObserver.java
+  s_bf05026eb3a866::t_f4dc37a1f3bca3 1-94
+extensions/youtube/src/main/java/app/morphe/extension/youtube/shared/PlayerType.java
+  s_bf05026eb3a866::t_2c4ae0e81bf615 1-159
+extensions/youtube/src/main/java/app/morphe/extension/youtube/shared/ShortsPlayerState.java
+  s_bf05026eb3a866::t_2d748d20250abd 1-35
+extensions/youtube/src/main/java/app/morphe/extension/youtube/shared/VideoState.java
+  s_bf05026eb3a866::t_e55cb4f6a1f965 1-69
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/SwipeControlsConfigurationProvider.java
+  s_bf05026eb3a866::t_e16937fc9f6f59 1-576
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/SwipeControlsHostActivity.java
+  s_bf05026eb3a866::t_f33e08ddbf2e71 1-424
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/AudioVolumeController.java
+  s_bf05026eb3a866::t_5bc2ea86442eaf 1-175
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/ScreenBrightnessController.java
+  s_bf05026eb3a866::t_492578d26246f2 1-80
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/SeekbarScrubber.java
+  s_bf05026eb3a866::t_57c76adad49a9b 1-34
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/SwipeSeekController.java
+  s_bf05026eb3a866::t_603012b1f5dd1f 1-160
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/SwipeZonesController.java
+  s_bf05026eb3a866::t_71c6050222dd40 1-184
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/VolumeKeysController.java
+  s_bf05026eb3a866::t_3b206e7f80a886 1-72
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/gesture/ClassicSwipeController.java
+  s_bf05026eb3a866::t_72bebf49634ab4 1-131
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/gesture/PressToSwipeController.java
+  s_bf05026eb3a866::t_e5780d7d601d01 1-80
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/gesture/ReplaySwipeController.java
+  s_bf05026eb3a866::t_be21fa3718b11e 1-157
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/gesture/core/BaseGestureController.java
+  s_bf05026eb3a866::t_c964b2e1f7d567 1-323
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/gesture/core/GestureController.java
+  s_bf05026eb3a866::t_29075d03d36d2a 1-16
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/gesture/core/SwipeDetector.java
+  s_bf05026eb3a866::t_e1a561c2c48abf 1-93
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/controller/gesture/core/VolumeAndBrightnessScroller.java
+  s_bf05026eb3a866::t_32209d2ac69364 1-152
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/misc/Point.java
+  s_bf05026eb3a866::t_260705a9935fd2 1-26
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/misc/Rectangle.java
+  s_bf05026eb3a866::t_dd84a96524472e 1-43
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/misc/ScrollDistanceHelper.java
+  s_bf05026eb3a866::t_936b048780447c 1-66
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/misc/SwipeControlsOverlay.java
+  s_bf05026eb3a866::t_687919bb40777c 1-45
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/misc/SwipeControlsUtils.java
+  s_bf05026eb3a866::t_f1ad9c5c5615ec 1-31
+extensions/youtube/src/main/java/app/morphe/extension/youtube/swipecontrols/views/SwipeControlsOverlayLayout.java
+  s_bf05026eb3a866::t_85591990981115 1-744
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/AutoplayButton.java
+  s_bf05026eb3a866::t_02244c7ee5cca0 1-175
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/ExportDownloadButton.java
+  s_bf05026eb3a866::t_74d27246c65d7f 1-84
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/FullscreenVideoAlignmentButton.java
+  s_bf05026eb3a866::t_6f04e453313d2c 1-122
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/GhostPlayButton.java
+  s_bf05026eb3a866::t_e2d17c0e25fdaa 1-173
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/LoopCountFlyoutButton.java
+  s_bf05026eb3a866::t_d774e2ee66321f 1-341
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/PlaylistPanelButton.java
+  s_bf05026eb3a866::t_6e22b0c25c0e6e 1-70
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/ReplayVideoButton.java
+  s_bf05026eb3a866::t_9b12ecbfdddf3e 1-294
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/ShortsDownloadButton.java
+  s_bf05026eb3a866::t_3a162f5cc51851 1-123
+extensions/youtube/src/main/java/app/morphe/extension/youtube/videoplayer/VideoEffectFlyoutButton.java
+  s_bf05026eb3a866::t_db1b1ceebba071 1-62
+extensions/youtube/src/main/proto/app/morphe/extension/youtube/innertube/element_texts.proto
+  s_bf05026eb3a866::t_c1ab04e1ba915f 1-456
+extensions/youtube/src/main/proto/app/morphe/extension/youtube/innertube/on_the_go.proto
+  s_bf05026eb3a866::t_101883f82bed20 1-29
+extensions/youtube/src/main/proto/app/morphe/extension/youtube/innertube/playlist_edit.proto
+  s_bf05026eb3a866::t_e181dbe44822a7 1-22
+extensions/youtube/src/main/proto/app/morphe/extension/youtube/innertube/queue_card.proto
+  s_bf05026eb3a866::t_b28b102827f5b8 1-85
+extensions/youtube/src/main/proto/app/morphe/extension/youtube/innertube/queue_fullscreen.proto
+  s_bf05026eb3a866::t_0e73792f982491 1-56
+extensions/youtube/src/test/java/app/morphe/extension/youtube/ambientlight/AmbientLightMathTest.java
+  s_bf05026eb3a866::t_8e9c324a368442 1-426
+extensions/youtube/src/test/java/app/morphe/extension/youtube/holdgesture/HoldGestureTest.java
+  s_bf05026eb3a866::t_e2c901bee806f6 1-634
+extensions/youtube/src/test/java/app/morphe/extension/youtube/holdgesture/RadialLayoutTest.java
+  s_bf05026eb3a866::t_08a53f83cea8c4 1-207
+extensions/youtube/src/test/java/app/morphe/extension/youtube/holdgesture/SpringTest.java
+  s_bf05026eb3a866::t_844edc8586ba56 1-91
+extensions/youtube/src/test/java/app/morphe/extension/youtube/niconicocomments/CommentScheduleTest.java
+  s_bf05026eb3a866::t_cb6166918b355f 1-252
+extensions/youtube/src/test/java/app/morphe/extension/youtube/niconicocomments/EmojiImageCacheTest.java
+  s_bf05026eb3a866::t_ff9a2ab38ccbca 1-136
+extensions/youtube/src/test/java/app/morphe/extension/youtube/niconicocomments/NiconicoCommentsControllerTest.java
+  s_bf05026eb3a866::t_76a62dbcee64d1 1-112
+extensions/youtube/src/test/java/app/morphe/extension/youtube/niconicocomments/NiconicoCommentsOverlayViewTest.java
+  s_bf05026eb3a866::t_c5b27ab8ce39e8 1-29
+extensions/youtube/src/test/java/app/morphe/extension/youtube/niconicocomments/TimedCommentsTest.java
+  s_bf05026eb3a866::t_64df07bb0224bf 1-139
+extensions/youtube/src/test/java/app/morphe/extension/youtube/niconicocomments/YouTubeChatSourceTest.java
+  s_bf05026eb3a866::t_0d3735bdd4299e 1-241
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/AutoplayRuleTest.java
+  s_bf05026eb3a866::t_e4dfb8fe440d31 1-114
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/CaptionBlockTranslatorTest.java
+  s_bf05026eb3a866::t_ba9ad6d40c40cf 1-488
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/CaptionInputReplayTest.java
+  s_bf05026eb3a866::t_6927d076f2df80 1-142
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/CaptionSessionTest.java
+  s_bf05026eb3a866::t_e527f1ba009b4d 1-361
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/CaptionSourceIdentityTest.java
+  s_bf05026eb3a866::t_8087ee7d6f39d4 1-35
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/CaptionViewportPolicyTest.java
+  s_bf05026eb3a866::t_96f0154b313dac 1-143
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/NativeCaptionPairTest.java
+  s_bf05026eb3a866::t_d1fb35dd0da5a9 1-127
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/NativeCaptionPlacementTest.java
+  s_bf05026eb3a866::t_b8d09b1c60ad8d 1-88
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/NativeCaptionSourceTest.java
+  s_bf05026eb3a866::t_796e5403b0003b 1-105
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/PlaylistPatchTest.java
+  s_bf05026eb3a866::t_e7b4a863de9c44 1-103
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/SavePushNotificationsPatchTest.java
+  s_bf05026eb3a866::t_6d9651b6a0e65d 1-65
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/StableCaptionBlockPolicyTest.java
+  s_bf05026eb3a866::t_525d2e37c481e3 1-545
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/TranslatedRollingCaptionPolicyTest.java
+  s_bf05026eb3a866::t_17f6188fc8f36d 1-295
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/UploadedCaptionPairTest.java
+  s_bf05026eb3a866::t_754a5a2065b8d3 1-143
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/UploadedCaptionTracksTest.java
+  s_bf05026eb3a866::t_d6141363af9e65 1-175
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/car/CarDisplayTest.java
+  s_bf05026eb3a866::t_22d2fa817d6e0e 1-30
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/car/CarNavigationBarTest.java
+  s_bf05026eb3a866::t_6a984113ec8090 1-38
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/components/CommentsElementsTest.java
+  s_bf05026eb3a866::t_6c9c3c252c2d75 1-179
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/components/VideoDurationFilterTest.java
+  s_bf05026eb3a866::t_ba901c376414e9 1-116
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/dearrow/TitleCleanupTest.java
+  s_bf05026eb3a866::t_4a4024de0d7aba 1-87
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/ghostplay/GhostPlayLogicTest.java
+  s_bf05026eb3a866::t_f0c26b30462f05 1-287
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/playback/speed/ReplaySwipeGestureTest.java
+  s_bf05026eb3a866::t_add22aa804c45a 1-166
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/playback/speed/ReplayVideoControllerTest.java
+  s_bf05026eb3a866::t_769744a853c45e 1-438
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/MixPlaylistRequestTest.java
+  s_bf05026eb3a866::t_6a11a3a4080c56 1-123
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/PlaylistCardSourceTest.java
+  s_bf05026eb3a866::t_b243d38d580b10 1-118
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/PlaylistPageTest.java
+  s_bf05026eb3a866::t_f71afdbc6bc078 1-82
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/PlaylistQueuePagingTest.java
+  s_bf05026eb3a866::t_deca417153d548 1-214
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/PlaylistQueueTest.java
+  s_bf05026eb3a866::t_c073556b65d624 1-157
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueFlyoutActionsTest.java
+  s_bf05026eb3a866::t_41cd46274f0764 1-281
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueRatingActionsTest.java
+  s_bf05026eb3a866::t_dfed0927b20663 1-111
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueRequestLocaleTest.java
+  s_bf05026eb3a866::t_da516f9643df38 1-68
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueSaveActionsTest.java
+  s_bf05026eb3a866::t_c320a64154bde7 1-193
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueSaveFeedbackTest.java
+  s_bf05026eb3a866::t_7eda28584324c3 1-85
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueShortsSessionTest.java
+  s_bf05026eb3a866::t_d0e0e191d2fecd 1-89
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueStartTest.java
+  s_bf05026eb3a866::t_7b8448263ead7a 1-60
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/QueueUndoActionsTest.java
+  s_bf05026eb3a866::t_a30a4deca08833 1-59
+extensions/youtube/src/test/java/app/morphe/extension/youtube/patches/queue/VideoMetadataTest.java
+  s_bf05026eb3a866::t_9f030e6be60f17 1-218
+extensions/youtube/src/test/java/app/morphe/extension/youtube/series/LibraryBackupTest.java
+  s_bf05026eb3a866::t_e76edf92d3926e 1-40
+extensions/youtube/src/test/java/app/morphe/extension/youtube/series/PlaybackReducerTest.java
+  s_bf05026eb3a866::t_806f5f05e6242c 1-108
+extensions/youtube/src/test/java/app/morphe/extension/youtube/series/ResumePlannerTest.java
+  s_bf05026eb3a866::t_1bb1482b945502 1-67
+extensions/youtube/src/test/java/app/morphe/extension/youtube/swipecontrols/SwipeSeekControllerTest.java
+  s_bf05026eb3a866::t_152bca0d05a1fc 1-152
+extensions/youtube/stub/src/main/java/androidx/car/app/IOnDoneCallback.java
+  s_bf05026eb3a866::t_209daca801f1ac 1-7
+extensions/youtube/stub/src/main/java/androidx/car/app/model/CarText.java
+  s_bf05026eb3a866::t_bed5bec741dd0a 1-6
+extensions/youtube/stub/src/main/java/androidx/car/app/model/IOnCheckedChangeListener.java
+  s_bf05026eb3a866::t_da5918f51c5960 1-10
+extensions/youtube/stub/src/main/java/androidx/car/app/model/ItemList.java
+  s_bf05026eb3a866::t_52c330a05808f5 1-11
+extensions/youtube/stub/src/main/java/androidx/car/app/model/ListTemplate.java
+  s_bf05026eb3a866::t_7e9db99443453d 1-9
+extensions/youtube/stub/src/main/java/androidx/car/app/model/Row.java
+  s_bf05026eb3a866::t_2891201f99ed53 1-19
+extensions/youtube/stub/src/main/java/androidx/car/app/model/Toggle.java
+  s_bf05026eb3a866::t_6f857f7d28c8fd 1-9
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/NiconicoCommentsController.java
+  s_bf05026eb3a866::t_d1f6955331a16b 1-482
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/NiconicoCommentsOverlayView.java
+  s_bf05026eb3a866::t_c0818770afa20f 1-599
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/NiconicoCommentsToggleButton.java
+  s_bf05026eb3a866::t_9aeeeb5b033719 1-262
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/TimedComments.java
+  s_bf05026eb3a866::t_b1039f7a0429a0 1-213
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/YouTubeChatSource.java
+  s_bf05026eb3a866::t_b733ea040d1fec 1-1379
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/AutoplayControlPatch.java
+  s_bf05026eb3a866::t_d860f238222d2c 1-80
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/AutoplayRule.java
+  s_bf05026eb3a866::t_b51323cbe42e55 1-89
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionBlockTranslator.java
+  s_bf05026eb3a866::t_548de98ce3d2f1 1-488
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionInputReplay.java
+  s_bf05026eb3a866::t_477846e1bfa350 1-54
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionMenu.java
+  s_bf05026eb3a866::t_464e07fbd73403 1-220
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionSession.java
+  s_bf05026eb3a866::t_1e2a122c2cc7b1 1-441
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionTracks.java
+  s_bf05026eb3a866::t_019b6eb2c23d85 1-933
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionViewportPatch.java
+  s_bf05026eb3a866::t_fd9f16cda45b27 1-121
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionViewportPolicy.java
+  s_bf05026eb3a866::t_ce137a6163d9c2 1-59
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionXml.java
+  s_bf05026eb3a866::t_934135e34118f8 1-95
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CaptionsAfterSeekPatch.java
+  s_bf05026eb3a866::t_2ff69dd85468b2 1-39
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/ChangePipActionsPatch.java
+  s_bf05026eb3a866::t_a1a7b246095eb7 1-189
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CommandRouterPatch.java
+  s_bf05026eb3a866::t_12b4538cea1b99 1-77
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CopyTranscriptPatch.java
+  s_bf05026eb3a866::t_9c5583f89c0237 1-247
+extensions/youtube/src/main/java/app/morphe/extension/youtube/patches/CustomSeekbarThumbPatch.java
+  s_bf05026eb3a866::t_5c91018c930b12 1-443
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/Spring.java
+  s_bf05026eb3a866::t_ee8b641041c676 1-82
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/VideoFrameSaver.java
+  s_bf05026eb3a866::t_2258eab3abca03 1-203
+extensions/youtube/src/main/java/app/morphe/extension/youtube/holdgesture/WindowTouchInterceptor.java
+  s_bf05026eb3a866::t_3fa7b36e2f5b7e 1-207
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/CommentSchedule.java
+  s_bf05026eb3a866::t_fcb5623bfebd0e 1-363
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/EmojiImageCache.java
+  s_bf05026eb3a866::t_9350db6e804d39 1-87
+extensions/youtube/src/main/java/app/morphe/extension/youtube/niconicocomments/NiconicoComment.java
+  s_bf05026eb3a866::t_05a5bf0c1332b4 1-88
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5772a2dd709251554888f4261f57fa2a8381ba80",
+  "prompts": {},
+  "sessions": {
+    "s_bf05026eb3a866": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2abf0491-3393-44df-a5cf-d18091cc31ec",
+        "model": "unknown"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
