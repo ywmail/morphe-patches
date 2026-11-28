@@ -1,0 +1,223 @@
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/preference/FixPreferenceIconPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 11-14,21,23,26,28,33-90,94,98,113,169-170
+patches/src/main/kotlin/app/morphe/patches/util/resource/ArrayResource.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 3,15-16,18,24-25
+patches/src/main/kotlin/app/morphe/patches/util/resource/CheckStringResources.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 29,32-34,36-57,67-68,70-81,90-93,105-115
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/accessibility/FixTouchExplorationPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-58
+patches/src/main/kotlin/app/morphe/patches/shared/layout/branding/AddBrandLicensePatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4-5,12,24
+patches/src/main/kotlin/app/morphe/patches/music/misc/gms/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-190
+patches/src/main/kotlin/app/morphe/patches/music/misc/fileprovider/FileProviderPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,10
+patches/src/main/kotlin/app/morphe/patches/youtube/shared/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 80-82,117-127,153,157-158
+patches/src/main/kotlin/app/morphe/patches/shared/layout/branding/header/BaseChangeHeaderPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 13-14,16-17,23,27-29,36-38,61-63,94-102,104-106,108-119,121-126,128,130
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/ListPreference.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 1-10,13,58,66-67,71,73
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/verticalscroll/FixVerticalScrollPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-60
+  s_bf05026eb3a866::t_a9cdbdfbc8000b 61-62
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/playservice/VersionCheckPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 5-6,11,45-46,73-74,119-128,130,137,154,168,191-195
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/settings/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 26,28-30,32
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/spoof/SpoofVideoStreamsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 23,32,48-49,86-90,92
+patches/src/main/kotlin/app/morphe/patches/shared/misc/gms/GmsCoreSupportPatch.kt
+  s_bf05026eb3a866::t_7e7ae92a455e44 21-24,26-27,57,62-63,70,74-79,105,112-113,116,136-137,141-146,176-181,193-215,505-507,521-522,525,530,536,547,555-569,571-581
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/SettingsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4-8,15,34,51,100-101,109-110,119-121,146-148,153-155,185,212-213,216-220,224-249,257,261,264-266
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/playertype/PlayerTypeHookPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 8,12,19,25
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/gms/Constants.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 8-12
+patches/src/main/kotlin/app/morphe/patches/shared/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 20,123-124,202-261
+patches/src/main/kotlin/app/morphe/patches/all/misc/clone/CloneAppPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 35-37,39,46-63,66-125,134,146,178,194-195,215,217,223,290-291,294,296-297,306,312-313,330-336
+patches/src/main/kotlin/app/morphe/patches/shared/misc/proto/Fingerprints.kt
+  s_bf05026eb3a866::t_bf3dc4854bceb2 1-85
+patches/src/main/kotlin/app/morphe/patches/shared/misc/spoof/appversion/BaseSpoofAppVersionPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 15-17,29-31
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/settings/SettingsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 14,17-18,30,49,51,53-55,57-59,61-62,65,67,88,92,111-112,168,173-176,181-182,189,195,200-202,207,213,218-220,223,226-228,230-231,241-244,275,280-291,302-303,339-346,348-360,425,443,445,447,516-523,525-526,532-534,536-539,542-543,549-551,553-555,565-567,569-572
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/accessibility/FixShortsAccessibilityPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-40
+  s_bf05026eb3a866::t_b999c906b65c33 41-44
+patches/src/main/kotlin/app/morphe/patches/music/misc/gms/DeviceFilesSearchFix.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-36
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/IntentPreference.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,28-30,32,34-36
+patches/src/main/kotlin/app/morphe/patches/shared/misc/gms/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 15,33-71,105-145
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/pipchatbar/FixPipChatBarPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,12
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/location/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-37
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/guidecache/FixGuideCachePatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-35
+patches/src/main/kotlin/app/morphe/patches/util/resource/BaseResource.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 3,18,21-22
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/NonInteractivePreference.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,29-30
+patches/src/main/kotlin/app/morphe/patches/shared/misc/fix/proto/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 17-27
+patches/src/main/kotlin/app/morphe/patches/shared/misc/request/BuildRequestPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 11,13,17,21,23,30,33-34,41-45,48-50,52-56,58-61,63,65-66
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/location/FixLocationSettingPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-39
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/gms/AccountCredentialsInvalidTextPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 5,12
+patches/src/main/kotlin/app/morphe/patches/shared/misc/gms/LinkHandlingPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 3,17
+patches/src/main/kotlin/app/morphe/patches/shared/misc/spoof/UserAgentClientSpoofPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,8-10,24,38-43
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/SwitchPreference.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 1-10,18-20,28-29,33
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/PreferenceScreenPreference.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,37-38,40
+patches/src/main/kotlin/app/morphe/patches/shared/misc/initialization/InitializationPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 12,17-18
+patches/src/test/kotlin/app/morphe/patches/all/misc/clone/FixPackageNameTest.kt
+  s_bf05026eb3a866::t_131f29d652863d 1,6-13,16-19,23-27,29-33,35-45,49-52
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/accessibility/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-67
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/BasePreference.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 14,49-50,55-56,61-62,65
+patches/src/main/kotlin/app/morphe/patches/music/misc/playservice/VersionCheckPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 5-6,31-36,39-42,44,61-63,65-66
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/contexthook/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 109-139
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/spoof/dimensions/SpoofDeviceDimensionsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,14,30
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/contentprovider/FixContentProviderPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 15,26
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/mediasession/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-95
+patches/src/main/kotlin/app/morphe/patches/youtube/interaction/nativeplaylistqueue/BridgeMethods.kt
+  s_bf05026eb3a866::t_bf3dc4854bceb2 1-63
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/mediasession/FixMediaSessionStopPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-142
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/delayedping/FixDelayedPingCrashPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-31
+patches/src/main/kotlin/app/morphe/patches/shared/layout/branding/BaseCustomBrandingPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 18,20,22,24-27,29,40,107-138,142,146-149,152,162-165,209-211,236,238-240,249,306,320,331-338,346,359-374,391,406-416,418-419,422,424,426-434,446-452,460,463,469,510-512,517-518,529-531,587-592,610,694,700,704-705,710-714,716,739,742-746,755-757,773,804-807,820-822,826-827,829,840,846-847,851,870,873-874
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/commandrouter/Fingerprints.kt
+  s_bf05026eb3a866::t_c9b896136e3c82 1-62
+patches/src/main/kotlin/app/morphe/patches/youtube/layout/buttons/overlay/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 24,87-91,95-98
+patches/src/main/kotlin/app/morphe/patches/all/misc/resources/AddResourcesPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 26-31,34-36,38,41,287,289,291-294,296-299,301,311-318,320,341,343-349,352-364,366-368,370-371,373-383,385-386,388-395,398-404,406-410,414-421,432-433,435-530,532-536,538-541,543,545-548,550-582,585-586,588-598,600
+patches/src/main/kotlin/app/morphe/patches/util/resource/StringResource.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 1-23,26,36,41-43,52
+patches/src/main/kotlin/app/morphe/patches/music/misc/gms/Constants.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 8-12
+patches/src/main/kotlin/app/morphe/patches/shared/misc/checks/ExperimentalAppNoticePatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 5-6,14
+patches/src/main/kotlin/app/morphe/patches/shared/misc/announcements/Fingerprints.kt
+  s_bf05026eb3a866::t_c9b896136e3c82 1-19
+patches/src/main/kotlin/app/morphe/patches/youtube/shared/Constants.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 21,26,31,36-37,40-41,44,52
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/playbackspeed/FIxPlaybackSpeedWhilePlayingPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 15-16,39
+patches/src/main/kotlin/app/morphe/patches/shared/misc/announcements/PatchesUpdateNoticePatch.kt
+  s_bf05026eb3a866::t_c9b896136e3c82 1-52
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/gms/GmsCoreSupportPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 13,15,21-23,34,38-57,61,72
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/spoof/dimensions/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 6-8,16-27
+patches/src/main/kotlin/app/morphe/patches/shared/misc/proto/ElementProtoParserHookPatch.kt
+  s_bf05026eb3a866::t_bf3dc4854bceb2 1-146
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/padding/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-135
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/gms/DeviceComplianceCheckPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 11,13
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/litholayout/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-128
+patches/build.gradle.kts
+  s_bf05026eb3a866::t_0eac34eb9350f9 3-7,12-13,65,67-94,98-102,105,107-120,126-132,159-195
+patches/src/main/kotlin/app/morphe/patches/shared/misc/spoof/SpoofVideoStreamsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 3-12,29-33,35-37,42-44,65-72,82,84-91,101,113,115-121,130-131,135-139,153-155,157,159-164,166-179,183,185-186,197,200-202,205,207-208,215-216,224,249-264,290,308-315,318,330-335,366-368,401,432-441,446-450,452-456,460,466,471-482,487,489,498-503,508-521,575-579,587-589,594-595,608
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/extension/SharedExtensionPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 3-9,12,14-53
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/descriptioncounts/FixDescriptionCountsPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-30
+patches/src/main/kotlin/app/morphe/patches/shared/misc/request/MediaRequestPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-3,5,8,10-14,16-17,19-20,22-67,70-74,80,82-84,86-105,110-112,114-118
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/delayedping/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-32
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/PreferenceCategory.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 5,28-29,31
+patches/src/main/kotlin/app/morphe/patches/shared/misc/request/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 12,30-34,38,50-98
+patches/src/main/kotlin/app/morphe/patches/music/misc/gms/CastFixes.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-115
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settingsmenu/HideMatchingHelper.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 11,31,33,69-70,73
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/guidecache/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-33
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/litholayout/FixLithoLayoutLoopPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-110
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/proto/ElementProtoParserHookPatch.kt
+  s_bf05026eb3a866::t_b0a318de64d460 1-22
+patches/src/main/kotlin/app/morphe/patches/music/misc/settings/SettingsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 12-17,33,50,62,97-98,113-115,117-129,133,149-152,165,181-192,204,214,216,218-220,222,231-233,243-245,285-303,305,312,319,325-339,341,347-348,350-351,356,364,371-372,374-377
+patches/src/main/kotlin/app/morphe/patches/music/misc/spoof/SpoofVideoStreamsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 29,68-73
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/gms/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 50-60
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/verticalscroll/Fingerprints.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-71
+patches/src/main/kotlin/app/morphe/patches/music/misc/gms/GmsCoreSupportPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 7-9,21,26-33,35-38,47
+patches/src/main/kotlin/app/morphe/patches/shared/misc/fix/bitmap/FixRecycledBitmapPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 13-14,20
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/likebutton/FixLikeButtonPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 16,19-20,22-23,34,38,42-45,47-54,56-67,69,71
+patches/src/main/kotlin/app/morphe/patches/youtube/layout/buttons/overlay/PlayerOverlayButtonsSettings.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 10,24
+patches/src/main/kotlin/app/morphe/patches/shared/misc/settings/preference/TextPreference.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 4,28-29
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/preference/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 39-43
+patches/src/main/kotlin/app/morphe/patches/shared/misc/fix/proto/FixProtoLibraryPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 12,34
+patches/src/main/kotlin/app/morphe/patches/shared/misc/spoof/Fingerprints.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 39-47,49-51,55-56,58-61,63-64,112-117,122,126,136,301,316,393-406,421-444
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/commandrouter/CommandRouterHookPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-54
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/padding/FixPagePaddingPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-113
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/contexthook/ClientContextHookPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 15-16,19,66,220-243
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/fix/accessibility/FixCaptionsAccessibilityPatch.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-35
+patches/src/main/kotlin/app/morphe/patches/util/resource/XmlResources.kt
+  s_bf05026eb3a866::t_e7f775a50e24b9 1-17,19-21,24,26-27,30,32-33,35-43
+patches/src/main/kotlin/app/morphe/patches/music/misc/proto/ElementProtoParserHookPatch.kt
+  s_bf05026eb3a866::t_b0a318de64d460 1-13
+patches/src/main/kotlin/app/morphe/patches/music/shared/Constants.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 21-22,26-32,36,40-43
+patches/src/main/kotlin/app/morphe/patches/youtube/layout/buttons/overlay/HidePlayerOverlayButtonsPatch.kt
+  s_bf05026eb3a866::t_0eac34eb9350f9 17,20-21,46,129-130,163-171
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3ded9390722c01f44712ac584e92331f333a4f23",
+  "prompts": {},
+  "sessions": {
+    "s_bf05026eb3a866": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2abf0491-3393-44df-a5cf-d18091cc31ec",
+        "model": "maas-glm-5-3-260814"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
