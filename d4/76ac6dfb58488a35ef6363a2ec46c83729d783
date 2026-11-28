@@ -1,0 +1,23 @@
+patches/src/main/kotlin/app/morphe/patches/youtube/layout/buttons/overlay/Fingerprints.kt
+  s_bf05026eb3a866::t_6aaa4e5e1abf00 1-135
+patches/src/main/kotlin/app/morphe/patches/youtube/layout/buttons/overlay/HidePlayerOverlayButtonsPatch.kt
+  s_bf05026eb3a866::t_6aaa4e5e1abf00 1-294
+patches/src/main/kotlin/app/morphe/patches/youtube/layout/buttons/overlay/PlayerOverlayButtonsSettings.kt
+  s_bf05026eb3a866::t_6aaa4e5e1abf00 1-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d476ac6dfb58488a35ef6363a2ec46c83729d783",
+  "prompts": {},
+  "sessions": {
+    "s_bf05026eb3a866": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2abf0491-3393-44df-a5cf-d18091cc31ec",
+        "model": "maas-glm-5-3-260814"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
