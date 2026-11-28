@@ -1,0 +1,22 @@
+README.md
+  s_c956351af90cde::t_534069079cecca 38,77,181
+patches-list.json
+  s_c956351af90cde::t_4359ee75b6fb34 19988
+  s_c956351af90cde::t_34ad87c810bfb5 8236-8248,8327-8339
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1f4376add59d7db328c662d991c3e32ec5fca4e8",
+  "prompts": {},
+  "sessions": {
+    "s_c956351af90cde": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8dcfcf25-eb96-42bc-842d-4353dfa53826",
+        "model": "maas-glm-5-3-260814"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
