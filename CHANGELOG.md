@@ -1,3 +1,14 @@
+## [1.48.0](https://github.com/ywmail/morphe-patches/compare/v1.47.0...v1.48.0) (2026-11-28)
+
+### 🐛 Bug Fixes
+
+* restore overlay patch lost in rebase ([d476ac6](https://github.com/ywmail/morphe-patches/commit/d476ac6dfb58488a35ef6363a2ec46c83729d783))
+
+### ✨ New Features
+
+* drop YouTube/Music non-misc patches ([1e4db9b](https://github.com/ywmail/morphe-patches/commit/1e4db9b1aae996817172a8edd6943f8192daba42))
+* slim to GmsCore-only patch set ([744ebfe](https://github.com/ywmail/morphe-patches/commit/744ebfee2af336e9e14cf6be04310b112eff4414))
+
 ## [1.47.0](https://github.com/ywmail/morphe-patches/compare/v1.46.0...v1.47.0) (2026-11-27)
 
 ### ✨ New Features

@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-27T04:36:15",
-  "description": "## [1.47.0](https://github.com/ywmail/morphe-patches/compare/v1.46.0...v1.47.0) (2026-11-27)\n\n### ✨ New Features\n\n* slim fork to drop Reddit and rename to ywmail-patches ([8f844a0](https://github.com/ywmail/morphe-patches/commit/8f844a04daa3bb48cdefc7b5ea592b715004f44c))",
-  "download_url": "https://github.com/ywmail/morphe-patches/releases/download/v1.47.0/patches-1.47.0.mpp",
+  "created_at": "2026-11-28T00:46:05",
+  "description": "## [1.48.0](https://github.com/ywmail/morphe-patches/compare/v1.47.0...v1.48.0) (2026-11-28)\n\n### 🐛 Bug Fixes\n\n* restore overlay patch lost in rebase ([d476ac6](https://github.com/ywmail/morphe-patches/commit/d476ac6dfb58488a35ef6363a2ec46c83729d783))\n\n### ✨ New Features\n\n* drop YouTube/Music non-misc patches ([1e4db9b](https://github.com/ywmail/morphe-patches/commit/1e4db9b1aae996817172a8edd6943f8192daba42))\n* slim to GmsCore-only patch set ([744ebfe](https://github.com/ywmail/morphe-patches/commit/744ebfee2af336e9e14cf6be04310b112eff4414))",
+  "download_url": "https://github.com/ywmail/morphe-patches/releases/download/v1.48.0/patches-1.48.0.mpp",
   "signature_download_url": "",
-  "version": "1.47.0"
+  "version": "1.48.0"
 }
