@@ -1,0 +1,19 @@
+morphe-signing.pub
+  s_c956351af90cde::t_2033a81374f10e 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "73bd7125f80caaf8a7b6b1cc770a88650d94eb41",
+  "prompts": {},
+  "sessions": {
+    "s_c956351af90cde": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8dcfcf25-eb96-42bc-842d-4353dfa53826",
+        "model": "maas-glm-5-3-260814"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
