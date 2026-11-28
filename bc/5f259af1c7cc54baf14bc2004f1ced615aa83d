@@ -1,0 +1,27 @@
+extensions/shared-youtube/library/src/main/java/app/morphe/extension/shared/patches/GmsCoreSupportPatch.java
+  s_c956351af90cde::t_67c55f0a78b692 872-873,880
+  s_c956351af90cde::t_0ce5b78ff48899 541-543,549
+patches/src/main/kotlin/app/morphe/patches/shared/misc/gms/GmsCoreSupportPatch.kt
+  s_c956351af90cde::t_1dcf2fe3cdad1f 49-50,52
+  s_c956351af90cde::t_ef3c74c56ab32f 19,26,53-67,93,110-124,127,136-137,141-142,148,161,207,539,553-554,564,569,575-576,589-590,611-613,615-617,633
+patches/src/main/kotlin/app/morphe/patches/youtube/misc/gms/GmsCoreSupportPatch.kt
+  s_c956351af90cde::t_00ecea44262f2b 14,70-72,76
+patches/src/main/kotlin/app/morphe/patches/music/misc/gms/GmsCoreSupportPatch.kt
+  s_c956351af90cde::t_00ecea44262f2b 3,44-46,51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bc5f259af1c7cc54baf14bc2004f1ced615aa83d",
+  "prompts": {},
+  "sessions": {
+    "s_c956351af90cde": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8dcfcf25-eb96-42bc-842d-4353dfa53826",
+        "model": "maas-glm-5-3-260814"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
