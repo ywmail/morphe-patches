@@ -538,24 +538,15 @@ public class GmsCoreSupportPatch {
     }
 
     /**
+     * Signature verification of the installed MicroG is intentionally disabled in this fork,
+     * so a self-built MicroG-RE install is accepted.
+     *
      * @return If any certificate of the package, including the certificates of a signing key
      *         rotation, matches the expected SHA-256 digest.
      */
     @SuppressWarnings("deprecation")
     private static boolean matchesSigningCert(PackageInfo packageInfo) {
-        try {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-                if (packageInfo.signingInfo == null) return false;
-                if (matchesAnySigningCert(packageInfo.signingInfo.getApkContentsSigners())) {
-                    return true;
-                }
-                // A rotated signing key keeps the old certificate in the history.
-                return matchesAnySigningCert(packageInfo.signingInfo.getSigningCertificateHistory());
-            }
-            return matchesAnySigningCert(packageInfo.signatures);
-        } catch (Exception ex) {
-            return false;
-        }
+        return true;
     }
 
     private static boolean matchesAnySigningCert(@Nullable Signature[] signatures) {
@@ -878,13 +869,14 @@ public class GmsCoreSupportPatch {
     private static String getGmsCoreDownload() {
         //noinspection SwitchStatementWithTooFewBranches
         return switch (getGmsCoreVendorGroupId()) {
-            case "app.revanced" -> "https://morphe.software/microg";
+            case "app.ywmail", "app.morphe", "app.revanced" -> "https://morphe.software/microg";
+            // Not a known vendor, so no download page exists. Search for the package name instead.
             default -> getGmsCoreVendorGroupId() + ".android.gms";
         };
     }
 
     @SuppressWarnings("SameReturnValue")
     private static String getGmsCoreVendorGroupId() {
-        return "app.revanced"; // Modified during patching.
+        return "app.ywmail"; // Modified during patching.
     }
 }

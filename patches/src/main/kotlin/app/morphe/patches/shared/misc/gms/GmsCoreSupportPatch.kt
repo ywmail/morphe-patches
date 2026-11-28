@@ -16,12 +16,14 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.InstallerType
+import app.morphe.patcher.patch.Option
 import app.morphe.patcher.patch.Patch
 import app.morphe.patcher.patch.PatchAvailability
 import app.morphe.patcher.patch.PatchDefinition
 import app.morphe.patcher.patch.patch
 import app.morphe.patcher.patch.replaceStrings
 import app.morphe.patcher.patch.resourceXml
+import app.morphe.patcher.patch.stringOption
 import app.morphe.patcher.string
 import app.morphe.patcher.util.registersUsed
 import app.morphe.patcher.util.returnEarly
@@ -44,9 +46,25 @@ internal const val EXTENSION_CLASS =
     "Lapp/morphe/extension/shared/patches/GmsCoreSupportPatch;"
 
 /**
- * Old vendor id for maximum backwards compatibility.
+ * The default GmsCore vendor group id, used when the "GmsCore vendor group ID" patch option
+ * is not specified. Kept for backwards compatibility with the pre-option hard fork.
  */
-internal const val GMS_CORE_VENDOR_GROUP_ID = "app.revanced"
+internal const val GMS_CORE_VENDOR_GROUP_ID = "app.ywmail"
+
+/**
+ * Android package name rules: at least two segments separated by dots,
+ * each segment starts with a letter and contains only letters, digits and underscores.
+ */
+private val VALID_VENDOR_GROUP_ID_REGEX = Regex("^[a-zA-Z][a-zA-Z0-9_]*(\\.[a-zA-Z][a-zA-Z0-9_]*)+$")
+
+/**
+ * @return The vendor group id option value, or the built-in default vendor group id
+ *         if the user did not specify one.
+ */
+private fun resolveGmsCoreVendorGroupId(gmsCoreVendorGroupIdOption: Option<String>): String =
+    gmsCoreVendorGroupIdOption.value
+        ?.takeIf { it != gmsCoreVendorGroupIdOption.default }
+        ?: GMS_CORE_VENDOR_GROUP_ID
 
 /**
  * A patch that allows patched Google apps to run without root and under a different package name
@@ -72,7 +90,7 @@ fun gmsCoreSupportPatch(
     earlyReturnFingerprints: Set<Fingerprint> = setOf(),
     mainActivityOnCreateFingerprint: Fingerprint,
     extensionPatch: Patch,
-    gmsCoreSupportResourcePatchFactory: () -> Patch,
+    gmsCoreSupportResourcePatchFactory: (gmsCoreVendorGroupIdOption: Option<String>) -> Patch,
     useLegacyGnpFingerprint: () -> Boolean,
     executeBlock: () -> Unit = {},
     block: PatchDefinition.() -> Unit = {},
@@ -89,9 +107,24 @@ fun gmsCoreSupportPatch(
         }
     }
 
+    val gmsCoreVendorGroupIdOption = stringOption(
+        key = "gmsCoreVendorGroupId",
+        default = "Default",
+        values = mapOf("Default" to "Default"),
+        title = "GmsCore vendor group ID",
+        description = "The vendor group ID of the GmsCore (microG) install to use, " +
+                "such as \"$GMS_CORE_VENDOR_GROUP_ID\". The GmsCore package name is " +
+                "the vendor group ID followed by \".android.gms\", and it must match " +
+                "the package name of the GmsCore installed on the device.",
+        required = true,
+    ) {
+        // "Default" is resolved to the built-in default while patching.
+        it == "Default" || it!!.matches(VALID_VENDOR_GROUP_ID_REGEX)
+    }
+
     dependsOn(
         cloneAppPatch,
-        gmsCoreSupportResourcePatchFactory(),
+        gmsCoreSupportResourcePatchFactory(gmsCoreVendorGroupIdOption),
         extensionPatch,
     )
 
@@ -100,17 +133,19 @@ fun gmsCoreSupportPatch(
 
         val toPackageName = setOrGetFallbackPackageName(toPackageNameDefault)
 
+        val gmsCoreVendorGroupId = resolveGmsCoreVendorGroupId(gmsCoreVendorGroupIdOption)
+
         // Exact string replacements.
 
         val exactReplacements = listOf(
-            "com.google" to GMS_CORE_VENDOR_GROUP_ID,
-            "com.google.android.gms" to "$GMS_CORE_VENDOR_GROUP_ID.android.gms",
+            "com.google" to gmsCoreVendorGroupId,
+            "com.google.android.gms" to "$gmsCoreVendorGroupId.android.gms",
 
             // Package names.
             "$fromPackageName.SuggestionProvider" to "$toPackageName.SuggestionProvider",
             "$fromPackageName.fileprovider" to "$toPackageName.fileprovider"
         ) + (PERMISSIONS + ACTIONS + AUTHORITIES).map { fromString ->
-            fromString to fromString.replace("com.google", GMS_CORE_VENDOR_GROUP_ID)
+            fromString to fromString.replace("com.google", gmsCoreVendorGroupId)
         }
 
         replaceStrings(exactReplacements.map { (fromString, toString) -> string(fromString) to toString })
@@ -123,7 +158,7 @@ fun gmsCoreSupportPatch(
                 if (str.startsWith(uriPrefix)) {
                     return str.replace(
                         uriPrefix,
-                        "content://${authority.replace("com.google", GMS_CORE_VENDOR_GROUP_ID)}",
+                        "content://${authority.replace("com.google", gmsCoreVendorGroupId)}",
                     )
                 }
             }
@@ -169,7 +204,7 @@ fun gmsCoreSupportPatch(
 
         // Change the vendor of GmsCore in the extension.
         GmsCoreSupportFingerprint.method.returnEarly(
-            GMS_CORE_VENDOR_GROUP_ID
+            gmsCoreVendorGroupId
         )
 
         // GNP expects the original Google package even when the installed app is renamed.
@@ -501,6 +536,7 @@ fun gmsCoreSupportResourcePatch(
     fromPackageName: String,
     toPackageNameDefault: String,
     spoofedPackageSignature: String,
+    gmsCoreVendorGroupIdOption: Option<String>,
     screen: BasePreferenceScreen.Screen,
     executeBlock: () -> Unit = {},
     block: PatchDefinition.() -> Unit = {},
@@ -514,6 +550,8 @@ fun gmsCoreSupportResourcePatch(
     execute {
         val toPackageName = setOrGetFallbackPackageName(toPackageNameDefault)
 
+        val gmsCoreVendorGroupId = resolveGmsCoreVendorGroupId(gmsCoreVendorGroupIdOption)
+
         /**
          * Add metadata to manifest to support spoofing the package name and signature of GmsCore.
          */
@@ -523,19 +561,19 @@ fun gmsCoreSupportResourcePatch(
 
                 // Spoof package name and signature.
                 application.appendChild("meta-data") {
-                    setAttribute("android:name", "$GMS_CORE_VENDOR_GROUP_ID.android.gms.SPOOFED_PACKAGE_NAME")
+                    setAttribute("android:name", "$gmsCoreVendorGroupId.android.gms.SPOOFED_PACKAGE_NAME")
                     setAttribute("android:value", fromPackageName)
                 }
 
                 application.appendChild("meta-data") {
-                    setAttribute("android:name", "$GMS_CORE_VENDOR_GROUP_ID.android.gms.SPOOFED_PACKAGE_SIGNATURE")
+                    setAttribute("android:name", "$gmsCoreVendorGroupId.android.gms.SPOOFED_PACKAGE_SIGNATURE")
                     setAttribute("android:value", spoofedPackageSignature)
                 }
 
                 // GmsCore presence detection in extension.
                 application.appendChild("meta-data") {
-                    setAttribute("android:name", "app.revanced.MICROG_PACKAGE_NAME")
-                    setAttribute("android:value", "$GMS_CORE_VENDOR_GROUP_ID.android.gms")
+                    setAttribute("android:name", "$gmsCoreVendorGroupId.MICROG_PACKAGE_NAME")
+                    setAttribute("android:value", "$gmsCoreVendorGroupId.android.gms")
                 }
             }
         }
@@ -548,8 +586,8 @@ fun gmsCoreSupportResourcePatch(
             val transformations = mapOf(
                 "$fromPackageName.permission.C2D_MESSAGE" to "$toPackageName.permission.C2D_MESSAGE",
                 "$fromPackageName.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" to "$toPackageName.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-                "com.google.android.c2dm" to "$GMS_CORE_VENDOR_GROUP_ID.android.c2dm",
-                "com.google.android.libraries.photos.api.mars" to "$GMS_CORE_VENDOR_GROUP_ID.android.apps.photos.api.mars",
+                "com.google.android.c2dm" to "$gmsCoreVendorGroupId.android.c2dm",
+                "com.google.android.libraries.photos.api.mars" to "$gmsCoreVendorGroupId.android.apps.photos.api.mars",
             )
 
             resourceXml("AndroidManifest.xml").use { manifest ->
@@ -570,9 +608,13 @@ fun gmsCoreSupportResourcePatch(
                 }
 
                 // Allow the app to request uninstall of conflicting MicroG / GMS variants on Android 14+.
-                // The variants are made visible to the package manager by gmsCorePackageQueriesPatch.
-                // Also add the external PoToken provider app to the queries.
+                // The other variants are made visible to the package manager by gmsCorePackageQueriesPatch,
+                // which hardcodes the upstream vendor group ids, so the vendor of this patch must also be
+                // declared here. Also add the external PoToken provider app to the queries.
                 manifest.elements("queries").firstOrNull()?.let { queries ->
+                    queries.appendChild("package") {
+                        setAttribute("android:name", "$gmsCoreVendorGroupId.android.gms")
+                    }
                     queries.appendChild("package") { setAttribute("android:name", "app.morphe.pot.helper") }
                     queries.parent!!.insertChild(queries.index + 1, "uses-permission") {
                         setAttribute("android:name", "android.permission.REQUEST_DELETE_PACKAGES")
@@ -588,7 +630,7 @@ fun gmsCoreSupportResourcePatch(
             IntentPreference(
                 "microg_settings",
                 intent = IntentPreference.Intent("", "org.microg.gms.ui.SettingsActivity") {
-                    "$GMS_CORE_VENDOR_GROUP_ID.android.gms"
+                    "$gmsCoreVendorGroupId.android.gms"
                 }
             ),
             SwitchPreference("morphe_gms_core_battery_optimization_dialog")

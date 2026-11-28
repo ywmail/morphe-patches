@@ -1,5 +1,6 @@
 package app.morphe.patches.music.misc.gms
 
+import app.morphe.patcher.patch.Option
 import app.morphe.patches.music.misc.extension.sharedExtensionPatch
 import app.morphe.patches.music.misc.fileprovider.fileProviderPatch
 import app.morphe.patches.music.misc.gms.Constants.MORPHE_MUSIC_PACKAGE_NAME
@@ -40,11 +41,14 @@ val gmsCoreSupportPatch = gmsCoreSupportPatch(
     compatibleWith(COMPATIBILITY_YOUTUBE_MUSIC)
 }
 
-private fun gmsCoreSupportResourcePatch() =
+private fun gmsCoreSupportResourcePatch(
+    gmsCoreVendorGroupIdOption: Option<String>,
+) =
     app.morphe.patches.shared.misc.gms.gmsCoreSupportResourcePatch(
         fromPackageName = MUSIC_PACKAGE_NAME,
         toPackageNameDefault = MORPHE_MUSIC_PACKAGE_NAME,
         spoofedPackageSignature = MUSIC_PACKAGE_SIGNATURE,
+        gmsCoreVendorGroupIdOption = gmsCoreVendorGroupIdOption,
         screen = PreferenceScreen.MISC,
         block = {
             dependsOn(

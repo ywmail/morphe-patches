@@ -11,6 +11,7 @@
 package app.morphe.patches.youtube.misc.gms
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructionsWithLabels
+import app.morphe.patcher.patch.Option
 import app.morphe.patches.shared.PrimeMethodFingerprint
 import app.morphe.patches.shared.misc.gms.EXTENSION_CLASS
 import app.morphe.patches.shared.misc.gms.gmsCoreSupportPatch
@@ -66,10 +67,13 @@ val gmsCoreSupportPatch = gmsCoreSupportPatch(
     compatibleWith(COMPATIBILITY_YOUTUBE)
 }
 
-private fun gmsCoreSupportResourcePatch() = gmsCoreSupportResourcePatch(
+private fun gmsCoreSupportResourcePatch(
+    gmsCoreVendorGroupIdOption: Option<String>,
+) = gmsCoreSupportResourcePatch(
     fromPackageName = YOUTUBE_PACKAGE_NAME,
     toPackageNameDefault = MORPHE_YOUTUBE_PACKAGE_NAME,
     spoofedPackageSignature = YOUTUBE_PACKAGE_SIGNATURE,
+    gmsCoreVendorGroupIdOption = gmsCoreVendorGroupIdOption,
     screen = PreferenceScreen.MISC,
     block = {
         dependsOn(
